@@ -1,59 +1,110 @@
 @import "tailwindcss";
 
-body{
-  background-image: url(C:\Users\franc\OneDrive\Desktop\pucte\src\assets\images\pucte.webp);
-  background-size: cover; /* oder contain / auto */
-  background-repeat: no-repeat;
-  background-position: center; /* oder top, bottom, left, right, x% y% */
-  height: 100vh;     
+/* ====================
+   Background Image Fade-in
+   ==================== */
+body {
+  background-color: #2e3842;
+  position: relative; /* für pseudo-element */
+  z-index: 0;
 }
 
+body::before {
+  content: '';
+  position: fixed; /* oder absolute */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/src/assets/images/pucte.webp');
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  z-index: -1; /* hinter allem Content */
+  animation: fadeBg 2s forwards;
+  animation-delay: 2.5s; /* Bild erscheint zuletzt */
+}
 
+@keyframes fadeBg {
+  from { opacity: 0; transform: scale(1.1); }
+  to { opacity: 1; transform: scale(1);}
+}
 
+/* ====================
+   Fade-in Keyframe
+   ==================== */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
 
+/* ====================
+   Border Animations
+   ==================== */
+@keyframes borderTop {
+  from { transform: scaleX(0); transform-origin: left; }
+  to { transform: scaleX(1); transform-origin: left; }
+}
 
+@keyframes borderBottom {
+  from { transform: scaleX(0); transform-origin: right; }
+  to { transform: scaleX(1); transform-origin: right; }
+}
 
+/* ====================
+   H1 Animation + Borders
+   ==================== */
+.h1-animate {
+  position: relative;
+  opacity: 0;
+  animation: fadeIn 0.7s forwards;
+  animation-delay: 0.5s;
+  padding: 0.5rem; /* optional, je nach Bedarf */
+}
 
+.h1-animate::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: white;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: borderTop 0.7s forwards;
+  animation-delay: 1s;
+}
 
+.h1-animate::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: white;
+  transform: scaleX(0);
+  transform-origin: right;
+  animation: borderBottom 0.7s forwards;
+  animation-delay: 1s;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ====================
+   Banner Content Fade-in
+   ==================== */
+.content-animate {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 1.5s;
+}
+.header{
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 3s;
+}
+.footer{
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 3s;
+}
