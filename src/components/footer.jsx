@@ -1,5 +1,5 @@
-
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
     return(
@@ -14,7 +14,7 @@ export default function Footer() {
             </section>
             <section className='text-center' >
                 <h2>FOLLOW</h2>
-                
+                <FontAwesomeIcon icon={faInstagram} />
             </section>
         </section>
     )
