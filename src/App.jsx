@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Header from './components/header.jsx'
 import Banner from './components/banner.jsx'
+import Footer from './components/footer.jsx'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +13,7 @@ function App() {
     <>
       <Header />
       <Banner />
+      <Footer />
     </>
   )
 }
