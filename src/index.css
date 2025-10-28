@@ -1,7 +1,11 @@
 @import "tailwindcss";
 
 body{
-  margin: 10px;
+  background-image: url(C:\Users\franc\OneDrive\Desktop\pucte\src\assets\images\pucte.webp);
+  background-size: cover; /* oder contain / auto */
+  background-repeat: no-repeat;
+  background-position: center; /* oder top, bottom, left, right, x% y% */
+  height: 100vh;     
 }
 
 

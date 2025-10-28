@@ -13,7 +13,7 @@ export default function Header() {
     }
 
     return(
-        <header className='top-0 flex justify-between items-center bg-[#FA8072] h-10'>
+        <header className='top-0 flex justify-between items-center h-10'>
             <h1>Pucte</h1>
             <div onClick={toggleSideBar}>Menu <FontAwesomeIcon icon={faBars} /></div>
             <SideBar visible={visible}  />
