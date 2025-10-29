@@ -108,3 +108,8 @@ body::before {
   animation: fadeIn 2s forwards;
   animation-delay: 3s;
 }
+.info{
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 3s;
+}
