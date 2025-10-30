@@ -11,13 +11,11 @@ export default function Header() {
 
     const toggleSideBar = () => {
         setVisible(prev => !prev)
-    }
-
-   
+    } 
     
 
     return(
-        <header  className={`header text-neutral-300 top-0 flex ${
+        <header  className={`header text-neutral-300 flex ${
                     show ? 'justify-between' : 'justify-end'
                     } items-center h-10`}>
             {show && <h1>Pucte</h1>}
