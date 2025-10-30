@@ -4,11 +4,8 @@ import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 
 
-export default function ScrollToButton(){
-    
-    const handleClick = () => {
+export default function ScrollToButton({handleShowMore}){    
 
-    }
 
     return(
         <section className='info text-neutral-300 text-center m-5'>
@@ -16,7 +13,7 @@ export default function ScrollToButton(){
             <Button 
                 content={<FontAwesomeIcon icon={faArrowDown} /> }
                 className='p-2 rounded-full hover:bg-neutral-300 hover:text-black'
-                onClick={handleClick}/>
+                onClick={handleShowMore}/>
         </section>
     )
 }
