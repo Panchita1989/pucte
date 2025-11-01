@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useRef } from "react";
 import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 import Header from './header.jsx'
 import Button from './button.jsx'
 import ScrollToButton from './scrollToButton.jsx'
@@ -15,12 +16,11 @@ export default function Banner(){
 
     const handleShowMore = () =>{
         setShowInfo(true)
-        infoRef.current.scrollIntoView({ behavior: 'smooth' })       
     }
 
     useEffect(()=>{
-        if(showInfo &&  infoRef.current){
-             infoRef.current.scrollIntoView({ behavior: 'smooth' })
+        if(showInfo &&  infoRef.current){            
+            infoRef.current.scrollIntoView({ behavior: 'smooth' })
         }
        
     },[showInfo])
@@ -44,9 +44,7 @@ export default function Banner(){
 
     return(
         <>
-        {showInfo &&(
-            <Header />
-        )}
+        <Header show={showInfo} />
         <section ref={topRef} className='banner text-neutral-300 mt-40 p-2 flex flex-col justify-center items-center gap-3'>
             <h1 className='h1 text-5xl p-2 h1-animate'>PUCTÉ</h1>
             <p className='banner-content text-2xl content-animate'>ESCAPE TO PARADISE</p>

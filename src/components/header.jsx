@@ -5,9 +5,9 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 
 
-export default function Header() {
+export default function Header({show}) {
     const[visible, setVisible] = React.useState(false)
-    const[show, setShow] = React.useState(false)
+    
 
     const toggleSideBar = () => {
         setVisible(prev => !prev)
@@ -15,7 +15,7 @@ export default function Header() {
     
 
     return(
-        <header  className={`header text-neutral-300 flex ${
+        <header  className={`sticky top-0 header text-neutral-300 flex ${
                     show ? 'justify-between' : 'justify-end'
                     } items-center h-10`}>
             {show && <h1>Pucte</h1>}
