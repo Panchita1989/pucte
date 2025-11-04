@@ -16,15 +16,19 @@ export default function Banner(){
 
     const handleShowMore = () =>{
         setShowInfo(true)
+        infoRef.current.scrollIntoView({ behavior: 'smooth' })
     }
 
     useEffect(()=>{
         if(showInfo &&  infoRef.current){            
-            infoRef.current.scrollIntoView({ behavior: 'smooth' })
+            infoRef.current.scrollIntoView({ behavior: "smooth" })
         }
        
     },[showInfo])
 
+
+    /*
+    add this effect if you want scrolling bar to desapear when scrolling to top
     useEffect(() =>{
         if(!topRef.current)return
 
@@ -41,7 +45,7 @@ export default function Banner(){
       
     },[])
 
-
+    */
     return(
         <>
         <Header show={showInfo} />

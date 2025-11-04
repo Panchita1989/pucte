@@ -15,8 +15,8 @@ export default function Header({show}) {
     
 
     return(
-        <header  className={`sticky top-0 header text-neutral-300 flex ${
-                    show ? 'justify-between' : 'justify-end'
+        <header  className={`sticky top-0 header flex ${
+                    show ? 'justify-between bg-zinc-300/50 text-black' : 'justify-end  text-neutral-300'
                     } items-center h-10`}>
             {show && <h1>Pucte</h1>}
             <div onClick={toggleSideBar}>Menu <FontAwesomeIcon icon={faBars} /></div>
