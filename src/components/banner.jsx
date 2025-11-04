@@ -5,7 +5,7 @@ import { useLayoutEffect } from "react";
 import Header from './header.jsx'
 import Button from './button.jsx'
 import ScrollToButton from './scrollToButton.jsx'
-import Rooms from './rooms.jsx'
+import Info from './info.jsx'
 
 
 export default function Banner(){
@@ -56,7 +56,7 @@ export default function Banner(){
             <ScrollToButton showInfo={showInfo} handleShowMore={handleShowMore}/>
         </section>
         <section>
-            <Rooms infoRef={infoRef} showInfo={showInfo}/>
+            <Info infoRef={infoRef} showInfo={showInfo}/>
         </section>
         </>
     )
