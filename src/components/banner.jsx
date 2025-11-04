@@ -10,12 +10,14 @@ import Info from './info.jsx'
 
 export default function Banner(){
     const [showInfo, setShowInfo] = useState(false)
+    const[showHeader, setShowHeader] = useState(false)
     const infoRef = useRef()
     const topRef = useRef()
     
 
     const handleShowMore = () =>{
         setShowInfo(true)
+        setShowHeader(true)
         infoRef.current.scrollIntoView({ behavior: 'smooth' })
     }
 
@@ -26,16 +28,18 @@ export default function Banner(){
        
     },[showInfo])
 
+    useEffect
 
-    /*
-    add this effect if you want scrolling bar to desapear when scrolling to top
+
+    
+    
     useEffect(() =>{
         if(!topRef.current)return
 
         const observer = new IntersectionObserver(
             ([entry]) => {
                 if(entry.isIntersecting){
-                    setShowInfo(false)
+                    setShowHeader(false)
                 }
             },
            
@@ -45,10 +49,10 @@ export default function Banner(){
       
     },[])
 
-    */
+
     return(
         <>
-        <Header show={showInfo} />
+        <Header show={showHeader} />
         <section ref={topRef} className='banner text-neutral-300 mt-40 p-2 flex flex-col justify-center items-center gap-3'>
             <h1 className='h1 text-5xl p-2 h1-animate'>PUCTÉ</h1>
             <p className='banner-content text-2xl content-animate'>ESCAPE TO PARADISE</p>
