@@ -2,12 +2,17 @@ import CardLeft from "./cardLeft.jsx";
 import CardRight from './cardRight.jsx'
 import NavBar from './navBar.jsx'
 import Button from './button.jsx'
+
+
 export default function Info({showInfo, infoRef}) {
+    
+    const navMenu = ['Rooms', 'Bacalar', 'Experiences', 'Location', 'Contact']
+    
     return(
         <>        
         {showInfo &&(
             <section ref={infoRef} className='mt-100 pt-10 mb-30 bg-teal-950/80 text-neutral-300'>
-                <NavBar />
+                <NavBar navMenu={navMenu}/>
                 <CardLeft title='ROOMS' img='src/assets/images/rooms.webp'>
                             <p className='mb-5'>Nestled in the heart of nature, Pucté is a tranquil retreat where timeless
                                 design meets the soul of the Mayan jungle. We offer four exclusive suites,

@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import {Link} from 'react-router-dom'
 
 export default function Footer() {
     return(
@@ -14,7 +15,7 @@ export default function Footer() {
             </section>
             <section className='text-center' >
                 <h2>FOLLOW</h2>
-                <FontAwesomeIcon icon={faInstagram} />
+                <a href='https://www.instagram.com/pucte_bacalar/' target='blank'><FontAwesomeIcon icon={faInstagram} /></a>
             </section>
         </section>
     )
