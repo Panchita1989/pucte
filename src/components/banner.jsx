@@ -28,18 +28,17 @@ export default function Banner(){
        
     },[showInfo])
 
-    useEffect
-
-
-    
-    
+       
     useEffect(() =>{
-        if(!topRef.current)return
+       if(!topRef.current)return
 
         const observer = new IntersectionObserver(
             ([entry]) => {
                 if(entry.isIntersecting){
                     setShowHeader(false)
+                }
+                if(!entry.isIntersecting){
+                    setShowHeader(true)
                 }
             },
            
