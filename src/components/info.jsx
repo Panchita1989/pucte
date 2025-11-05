@@ -1,6 +1,7 @@
 import CardLeft from "./cardLeft.jsx";
 import CardRight from './cardRight.jsx'
 import NavBar from './navBar.jsx'
+import Button from './button.jsx'
 export default function Info({showInfo, infoRef}) {
     return(
         <>        
@@ -29,6 +30,9 @@ export default function Info({showInfo, infoRef}) {
                                 Step out onto your private terrace to take in the serene lagoon views, a perfect
                                 spot to relax and soak in the natural beauty of Bacalar.</p>    
                 </CardLeft>
+                <div className='text-center mb-10'>
+                    <Button className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-2 rounded content-animate md:hover:cursor-pointer' content='Book now' />
+                </div>
                 <CardRight title='SPACES' img='src/assets/images/palapa.webp'>
                     <h2>PALAPA</h2>
                     <p className='md:mb-5'>The palapa area is a welcoming communal space featuring a well-equipped kitchen 
