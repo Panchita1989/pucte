@@ -1,10 +1,12 @@
 import CardLeft from "./cardLeft.jsx";
 import CardRight from './cardRight.jsx'
+import NavBar from './navBar.jsx'
 export default function Info({showInfo, infoRef}) {
     return(
         <>        
         {showInfo &&(
-            <section ref={infoRef} className='mt-100 pt-20 mb-30 bg-teal-950/80 text-neutral-300'>
+            <section ref={infoRef} className='mt-100 pt-10 mb-30 bg-teal-950/80 text-neutral-300'>
+                <NavBar />
                 <CardLeft title='ROOMS' img='src/assets/images/rooms.webp'>
                             <p className='mb-5'>Nestled in the heart of nature, Pucté is a tranquil retreat where timeless
                                 design meets the soul of the Mayan jungle. We offer four exclusive suites,
@@ -15,7 +17,7 @@ export default function Info({showInfo, infoRef}) {
                                 inspired, and the private bathroom offers a serene space to refresh and unwind.</p>
                             <h2>UPSTAIRS ROOMS</h2>    
                             <h3>KA'A | HUN</h3>
-                            <p className='mb-5'>Experience tranquility in our upstairs rooms, each featuring a comfortable
+                            <p className='md:mb-5'>Experience tranquility in our upstairs rooms, each featuring a comfortable
                                 king-size bed perfect for a restful night’s sleep. Wake up to stunning views of
                                 the lagoon from your private terrace, where you can enjoy a morning coffee or
                                 unwind in the evening. The upstairs location provides a more elevated perspective
@@ -29,14 +31,14 @@ export default function Info({showInfo, infoRef}) {
                 </CardLeft>
                 <CardRight title='SPACES' img='src/assets/images/palapa.webp'>
                     <h2>PALAPA</h2>
-                    <p className='mb-5'>The palapa area is a welcoming communal space featuring a well-equipped kitchen 
+                    <p className='md:mb-5'>The palapa area is a welcoming communal space featuring a well-equipped kitchen 
                         with all modern appliances, including a stove, fridge, wine fridge, and coffee 
                         maker. A dining table for six and comfortable sofas create an ideal setting for 
                         meals and relaxation. This open-air area offers breathtaking views of the deck 
                         and lagoon, providing a perfect backdrop for socializing and enjoying the natural
                         beauty of Bacalar.</p>
                     <h2>PIER</h2>
-                    <p className='mb-5'>Step outside and discover our private dock—your front-row seat to the beauty of 
+                    <p className='md:mb-5'>Step outside and discover our private dock—your front-row seat to the beauty of 
                         the lagoon. Whether you're watching the sunset paint the sky, reading a book 
                         with your feet in the water, sunbathing, or enjoying a refreshing swim, this 
                         peaceful space invites you to slow down and reconnect. For those seeking a bit 
