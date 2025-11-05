@@ -4,7 +4,7 @@ import NavBar from './navBar.jsx'
 import Button from './button.jsx'
 
 
-export default function Info({showInfo, infoRef}) {
+export default function Rooms({showInfo, infoRef}) {
     
     const navMenu = ['Rooms', 'Bacalar', 'Experiences', 'Location', 'Contact']
     
