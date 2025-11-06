@@ -14,6 +14,9 @@ export default function Header() {
 
     const {pathname} = useLocation()
     
+    const onClose = () =>{
+        setVisible(false)
+    }
 
     const toggleSideBar = () => {
         setVisible(prev => !prev)
@@ -28,12 +31,12 @@ export default function Header() {
     
 
     return(
-        <header  className={`sticky top-0 header flex ${
-                    show ? 'justify-between bg-zinc-300/50 text-black' : 'justify-end  text-neutral-300'
-                    } items-center h-10`}>
-            {show && <Link to='/'><h1>Pucte</h1></Link>}
+        <header  className={`sticky top-0 header flex text-xl ${
+                    show ? 'justify-between bg-neutral-300/80  text-teal-900' : 'justify-end  text-neutral-300'
+                    } items-center h-20`}>
+            {show && <Link to='/' onClick={onClose}><img className=' h-15 rounded-full' src="src/assets/images/logo.png" alt="pucte" /></Link>}
             <div onClick={toggleSideBar}>Menu <FontAwesomeIcon icon={faBars} /></div>
-            <SideBar visible={visible}  />
+            <SideBar onClose={onClose} visible={visible}  />
         </header>
     )
 }

@@ -2,9 +2,9 @@ import {Link, useLocation} from 'react-router-dom'
 import {useState, useEffect} from 'react'
 
 
-export default function NavBar() {
+export default function NavBar({visible}) {
 
-    const navMenu = ['Rooms', 'Bacalar', 'Experiences', 'Location', 'Contact']
+    const navMenu = ['Rooms', 'Bacalar', 'Experiences', 'Location', 'Contact', 'Follow']
     const[active, setActive] = useState('')
 
     const {pathname} = useLocation()
@@ -13,11 +13,13 @@ export default function NavBar() {
         if(pathname !== '/'){
             setActive(pathname.replace('/', ''))
         }
+
     }, [pathname])
 
     return(
         <nav className='p-10'>
-            <ul className='flex flex-row justify-around'>
+            <ul className={`${
+                visible ? 'flex flex-col justify-end ' : 'flex flex-row justify-around' }`}>
                 {navMenu.map(e => {
                    const lower = e.toLowerCase()
                    const isActive = active === lower 
