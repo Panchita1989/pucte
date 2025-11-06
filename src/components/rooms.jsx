@@ -4,15 +4,13 @@ import NavBar from './navBar.jsx'
 import Button from './button.jsx'
 
 
-export default function Rooms({showInfo, infoRef}) {
-    
-    const navMenu = ['Rooms', 'Bacalar', 'Experiences', 'Location', 'Contact']
-    
+
+export default function Rooms() {    
+
     return(
-        <>        
-        {showInfo &&(
-            <section ref={infoRef} className='mt-100 pt-10 mb-30 bg-teal-950/80 text-neutral-300'>
-                <NavBar navMenu={navMenu}/>
+        <>  
+            <section className='md:m-20 bg-teal-950/80 text-neutral-300'>
+                <NavBar />
                 <CardLeft title='ROOMS' img='src/assets/images/rooms.webp'>
                             <p className='mb-5'>Nestled in the heart of nature, Pucté is a tranquil retreat where timeless
                                 design meets the soul of the Mayan jungle. We offer four exclusive suites,
@@ -54,7 +52,7 @@ export default function Rooms({showInfo, infoRef}) {
                         of adventure, kayaks and paddleboards are available to explore the lagoon at 
                         your own rhythm, guided only by the sound of nature.</p>               
                 </CardRight>
-            </section>)}
+            </section>
         </>
         
     )
