@@ -10,7 +10,7 @@ export default function Rooms() {
 
     return(
         <>  
-            <section className='mx-2 my-1 py-5 bg-teal-950/80 text-neutral-300 tracking-widest leading-loose'>
+            <section className='mx-2 my-1 py-5 bg-teal-950/80 text-neutral-300 tracking-widest leading-loose ransition-opacity duration-700 ease-out opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]'>
                 <NavBar />
                 <CardLeft title='ROOMS' img='images/rooms.webp'>
                             <p className='mb-5 '>Nestled in the heart of nature, Pucté is a tranquil retreat where timeless

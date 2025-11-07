@@ -19,7 +19,7 @@ function App() {
     <>
       {/* in App.jsx (direkt unterhalb von <body> bzw. dem root-container) */}
       <div className="bg-layer">
-        <img src="/images/pucte.webp" alt="background" />
+       
       </div>
 
       <Header />

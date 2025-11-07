@@ -33,7 +33,7 @@ export default function Header() {
     return(
         <>
         <header  className={`sticky top-0 header flex text-xl w-full ${
-                    show ? 'justify-between bg-black/60 backdrop-blur-md text-neutral-300' : 'justify-end bg-teal-900/20 text-neutral-300'
+                    show ? 'justify-between bg-black/60 backdrop-blur-md text-neutral-300 ransition-opacity duration-700 ease-out opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]' : 'justify-end bg-teal-900/20 text-neutral-300'
                     } items-center h-20`}>
             {show && <Link to='/' onClick={onClose}><img className=' h-15 rounded-full' src="images/logo.png" alt="pucte" /></Link>}
             <div onClick={toggleSideBar}>Menu <FontAwesomeIcon icon={faBars} /></div>
