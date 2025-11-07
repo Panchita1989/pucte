@@ -17,7 +17,11 @@ function App() {
 
   return (
     <>
-      <div className="bg-layer"></div>    
+      {/* in App.jsx (direkt unterhalb von <body> bzw. dem root-container) */}
+      <div className="bg-layer">
+        <img src="/images/pucte.webp" alt="background" />
+      </div>
+
       <Header />
       <Routes>
         <Route path='/' element= {<Banner />} />
