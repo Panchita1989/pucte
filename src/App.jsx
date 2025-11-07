@@ -16,7 +16,8 @@ import Contact from './components/contact.jsx'
 function App() {
 
   return (
-    <>    
+    <>
+      <div className="bg-layer"></div>    
       <Header />
       <Routes>
         <Route path='/' element= {<Banner />} />

@@ -14,21 +14,22 @@ body {
   
 }
 
-body::before {
-  content: '';
-  position: fixed; /* oder absolute */
-  inset: 0 ;
+.bg-layer {
+  position: fixed;
+  inset: 0;
   background-image: url('/images/pucte.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: rgba(46, 56, 66, 0.5);
+  z-index: -1;
+  animation: fadeBg 2s forwards;
+  animation-delay: 2.5s;
   opacity: 0;
-  z-index: -1; /* hinter allem Content */
   will-change: opacity, transform;
   transform: translateZ(0);
-  animation: fadeBg 2s forwards;
-  animation-delay: 2.5s; /* Bild erscheint zuletzt */
 }
+
 
 @keyframes fadeBg {
   from { opacity: 0; transform: scale(1.1); }
