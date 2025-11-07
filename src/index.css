@@ -15,6 +15,7 @@ body {
 }
 
 body::before {
+  background-attachment: scroll;
   content: '';
   position: fixed; /* oder absolute */
   top: 0;
