@@ -21,7 +21,7 @@ export default function Banner(){
             <meta name="description" content="Relax at Pucté Hotel, directly on Bacalar Lagoon. Comfortable rooms, stunning views, and unforgettable boat tours." />
             <meta name="keywords" content="Hotel Bacalar, Bacalar Lagoon, Pucté Hotel, Lagoonfront Hotel, Bacalar Accommodation" />
             <p className='banner-content text-2xl content-animate'>A SLICE OF PARADISE ON BACALAR LAGOON</p>
-            <Button className='banner-content bg-teal-950 active:bg-neutral-300 active:text-teal-950 xl:hover:bg-neutral-300 xl:hover:text-teal-950 p-2 rounded content-animate md:hover:cursor-pointer' content='Book now' />
+            <Button className='banner-content bg-teal-950 active:bg-neutral-300 active:text-teal-950 xl:hover:bg-neutral-300 xl:hover:text-teal-950 p-2 rounded content-animate md:hover:cursor-pointer' content='Stay at Pucté' />
             <ScrollToButton handleShowMore={handleShowMore}/>
         </main>
         </>

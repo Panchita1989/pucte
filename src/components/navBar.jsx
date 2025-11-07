@@ -32,7 +32,7 @@ export default function NavBar({visible}) {
                         </Link>
                     </li>
                 })}
-                    <li className='text-neutral-400 hover:text-neutral-200' ><a href="">Book now</a></li>
+                    <li className='text-neutral-400 hover:text-neutral-200' ><a href="">Stay at Pucté</a></li>
             </ul>
         </nav>
     )

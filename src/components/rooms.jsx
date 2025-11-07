@@ -10,9 +10,18 @@ export default function Rooms() {
 
     return(
         <>  
-            <section className='mx-10 my-1 py-5 bg-teal-950/80 text-neutral-300 tracking-widest leading-loose ransition-opacity duration-700 ease-out opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]'>
+            <main className='mx-10 my-1 py-5 bg-teal-950/80 text-neutral-300 tracking-widest leading-loose ransition-opacity duration-700 ease-out opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]'>
+                <meta
+                    name="description"
+                    content="Discover Pucté Lagoon Front Hotel in Bacalar. Exclusive suites, private terraces with lagoon views, palapa, dock, and serene water adventures."
+                />
+                <meta
+                    name="keywords"
+                    content="Pucté Hotel, Bacalar Lagoon, Lagoon Front Hotel, Bacalar Mexico, Suites Bacalar, Hotel with Dock, Palapa Bacalar"
+                />
                 <NavBar />
-                <CardLeft title='ROOMS' img='images/rooms.webp'>
+                <h1 className='text-center'>PUCTÉ - LAGOON FRONT HOTEL</h1>
+                <CardLeft title='ROOMS' img='images/rooms.webp' alt="Pucté Hotel rooms with lagoon view">
                             <p className='mb-5 '>Nestled in the heart of nature, Pucté is a tranquil retreat where timeless
                                 design meets the soul of the Mayan jungle. We offer four exclusive suites,
                                 each thoughtfully named after the sacred numbers of the ancient Mayan culture, 
@@ -35,9 +44,9 @@ export default function Rooms() {
                                 spot to relax and soak in the natural beauty of Bacalar.</p>    
                 </CardLeft>
                 <div className='text-center mb-10'>
-                    <Button className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-2 rounded content-animate md:hover:cursor-pointer' content='Book now' />
+                    <Button className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-2 rounded content-animate md:hover:cursor-pointer' content='Stay at Pucté' />
                 </div>
-                <CardRight title='SPACES' img='images/palapa.webp'>
+                <CardRight title='SPACES' img='images/palapa.webp' alt='Pier and shared spaces/ lagoon access'>
                     <h2>PALAPA</h2>
                     <p className='md:mb-5'>The palapa area is a welcoming communal space featuring a well-equipped kitchen 
                         with all modern appliances, including a stove, fridge, wine fridge, and coffee 
@@ -53,7 +62,7 @@ export default function Rooms() {
                         of adventure, kayaks and paddleboards are available to explore the lagoon at 
                         your own rhythm, guided only by the sound of nature.</p>               
                 </CardRight>
-            </section>
+            </main>
             <Footer />
         </>
         
