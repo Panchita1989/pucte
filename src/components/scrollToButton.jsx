@@ -10,7 +10,7 @@ export default function ScrollToButton({handleShowMore}){
 
     return(
         <section className='info text-neutral-300 text-2xl text-center '>
-            <p>Pssst… prettier things happen here.</p>
+            <p>Discover Pucté</p>
             <Button 
                 content={<FontAwesomeIcon icon={faArrowDown} /> }
                 className='p-2 rounded-full bg-neutral-300 text-teal-900 active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300'

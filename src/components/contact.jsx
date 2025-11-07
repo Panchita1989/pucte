@@ -1,6 +1,7 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import Footer from './footer.jsx'
+import NavBar from './navBar.jsx'
 
 function Contact() {
   const [state, handleSubmit] = useForm("mdkynnob");
@@ -9,7 +10,9 @@ function Contact() {
   }
   return (
     <>
+    
     <section className='h-screen rounded xl:mx-20 mx-2 my-5 my-1 py-5 px-3 bg-teal-950/80 text-neutral-300 tracking-widest leading-loose transition-opacity duration-700 ease-out opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]'>
+      <NavBar />
       <h1 className='text-center text-3xl font-bold mb-2'>Contact</h1>
       <p className='text-center' >For more information please contact us:</p>
       

@@ -6,7 +6,7 @@ import Footer from './footer.jsx'
 export default function Bacalar() {
     return(
         <>
-        <section className='mx-2 my-1 py-5 bg-teal-950/80 text-neutral-300 tracking-widest leading-loose ransition-opacity duration-700 ease-out opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]'>
+        <section className='mx-10 my-1 py-5 bg-teal-950/80 text-neutral-300 tracking-widest leading-loose ransition-opacity duration-700 ease-out opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]'>
             <NavBar />
             <CardLeft title='BACALAR' img='images/bacalar1.jpg' >
                 <p className='tracking-widest leading-loose'>Located on the eastern coast of the Yucatán Peninsula, the charming town of Bacalar serves as the gateway to

@@ -11,7 +11,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 function Experiences() { 
      return(
          <>  
-             <section className='mx-2 my-1 py-5 bg-teal-950/80 text-neutral-300 tracking-widest leading-loose ransition-opacity duration-700 ease-out opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]'>
+             <section className='mx-10 my-1 py-5 bg-teal-950/80 text-neutral-300 tracking-widest leading-loose ransition-opacity duration-700 ease-out opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]'>
                  <NavBar />
                  <CardLeft title='EXPERIENCES' img='images/sail.png'>
                              <p className='pb-5'>
