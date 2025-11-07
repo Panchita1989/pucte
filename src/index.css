@@ -13,7 +13,7 @@ body {
 
 body::before {
   content: '';
-  position: fixed; /* oder absolute */
+  position: absolute; /* oder absolute */
   top: 0;
   left: 0;
   width: 100%;
