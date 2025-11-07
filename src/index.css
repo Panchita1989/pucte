@@ -1,43 +1,71 @@
 @import "tailwindcss";
 
+/* ====================
+   Base Setup
+   ==================== */
 html, body {
   height: 100%;
-}
-/* ====================
-   Background Image Fade-in
-   ==================== */
-body {
-  background-color: rgba(46, 56, 66, 0.5);
-  position: relative; /* für pseudo-element */
-  z-index: 0;
-  font-size: 0.75em;
-  
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
+body {
+  background-color: rgba(46, 56, 66, 0.5);
+  position: relative;
+  z-index: 0;
+  font-size: 0.75em;
+}
+
+/* ====================
+   Background Layer
+   ==================== */
 .bg-layer {
   position: fixed;
   inset: 0;
+  height: 100dvh; /* dynamische Höhe für Mobile */
   background-image: url('/images/pucte.webp');
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-color: rgba(46, 56, 66, 0.5);
   z-index: -1;
+  opacity: 0;
   animation: fadeBg 2s forwards;
   animation-delay: 2.5s;
-  opacity: 0;
   will-change: opacity, transform;
   transform: translateZ(0);
 }
 
-
-@keyframes fadeBg {
-  from { opacity: 0; transform: scale(1.1); }
-  to { opacity: 1; transform: scale(1);}
+/* Konstanter Overlay-Ton */
+.bg-layer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(46, 56, 66, 0.5);
 }
 
 /* ====================
-   Fade-in Keyframe
+   Hintergrund-Animation
+   ==================== */
+@keyframes fadeBg {
+  from { opacity: 0; transform: scale(1.05); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* ====================
+   MOBILE FIX (Samsung / Android)
+   ==================== */
+@supports (-webkit-touch-callout: none) {
+  .bg-layer {
+    position: fixed;
+    background-attachment: scroll !important; /* verhindert Flackern */
+    transform: none !important;
+    will-change: opacity;
+  }
+}
+
+/* ====================
+   Fade-in Animation (für Text, Header etc.)
    ==================== */
 @keyframes fadeIn {
   from { opacity: 0; }
@@ -65,17 +93,21 @@ body {
   opacity: 0;
   animation: fadeIn 0.7s forwards;
   animation-delay: 0.5s;
-  padding: 0.5rem; /* optional, je nach Bedarf */
+  padding: 0.5rem;
+}
+
+.h1-animate::before,
+.h1-animate::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: white;
 }
 
 .h1-animate::before {
-  content: '';
-  position: absolute;
   top: 0;
-  left: 0;
-  height: 2px;
-  width: 100%;
-  background: white;
   transform: scaleX(0);
   transform-origin: left;
   animation: borderTop 0.7s forwards;
@@ -83,13 +115,7 @@ body {
 }
 
 .h1-animate::after {
-  content: '';
-  position: absolute;
   bottom: 0;
-  left: 0;
-  height: 2px;
-  width: 100%;
-  background: white;
   transform: scaleX(0);
   transform-origin: right;
   animation: borderBottom 0.7s forwards;
@@ -97,25 +123,15 @@ body {
 }
 
 /* ====================
-   Banner Content Fade-in
+   Content Fade-in
    ==================== */
-.content-animate {
+.content-animate,
+.header,
+.footer,
+.info {
   opacity: 0;
   animation: fadeIn 2s forwards;
-  animation-delay: 1.5s;
 }
-.header{
-  opacity: 0;
-  animation: fadeIn 2s forwards;
-  animation-delay: 3s;
-}
-.footer{
-  opacity: 0;
-  animation: fadeIn 2s forwards;
-  animation-delay: 3s;
-}
-.info{
-  opacity: 0;
-  animation: fadeIn 2s forwards;
-  animation-delay: 3s;
-}
+
+.content-animate { animation-delay: 1.5s; }
+.header, .footer, .info { animation-delay: 3s; }
