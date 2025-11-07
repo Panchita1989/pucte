@@ -4,7 +4,7 @@ import {useState, useEffect} from 'react'
 
 export default function NavBar({visible}) {
 
-    const navMenu = ['Rooms', 'Bacalar', 'Experiences', 'Location', 'Contact', 'Follow']
+    const navMenu = ['Rooms', 'Bacalar', 'Experiences', 'Location', 'Contact']
     const[active, setActive] = useState('')
 
     const {pathname} = useLocation()
@@ -17,7 +17,7 @@ export default function NavBar({visible}) {
     }, [pathname])
 
     return(
-        <nav className='p-10'>
+        <nav className='p-10 hidden md:block'>
             <ul className={`${
                 visible ? 'flex flex-col justify-end ' : 'flex flex-row justify-around' }`}>
                 {navMenu.map(e => {

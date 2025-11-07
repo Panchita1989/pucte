@@ -1,5 +1,4 @@
 @import "tailwindcss";
-html { scroll-behavior: smooth !important; }
 
 /* ====================
    Background Image Fade-in
@@ -9,6 +8,7 @@ body {
   position: relative; /* für pseudo-element */
   z-index: 0;
   font-size: 0.75em;
+  
 }
 
 body::before {

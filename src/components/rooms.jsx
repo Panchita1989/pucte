@@ -2,6 +2,7 @@ import CardLeft from "./cardLeft.jsx";
 import CardRight from './cardRight.jsx'
 import NavBar from './navBar.jsx'
 import Button from './button.jsx'
+import Footer from './footer.jsx'
 
 
 
@@ -9,7 +10,7 @@ export default function Rooms() {
 
     return(
         <>  
-            <section className='md:m-20 bg-teal-950/80 text-neutral-300'>
+            <section className='mx-20 my-1 py-5 bg-teal-950/80 text-neutral-300'>
                 <NavBar />
                 <CardLeft title='ROOMS' img='src/assets/images/rooms.webp'>
                             <p className='mb-5'>Nestled in the heart of nature, Pucté is a tranquil retreat where timeless
@@ -53,6 +54,7 @@ export default function Rooms() {
                         your own rhythm, guided only by the sound of nature.</p>               
                 </CardRight>
             </section>
+            <Footer />
         </>
         
     )
