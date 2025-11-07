@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useEffect } from 'react'
+import { useLocation } from "react-router-dom";
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -14,6 +15,13 @@ import Contact from './components/contact.jsx'
 
 
 function App() {
+
+  const {pathname} = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
 
   return (
     <>

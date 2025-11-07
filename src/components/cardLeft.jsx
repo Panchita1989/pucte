@@ -1,4 +1,4 @@
-import Button from './button.jsx'
+
 
 export default function CardLeft({title, children, img}){
 
