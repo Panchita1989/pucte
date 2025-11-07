@@ -7,7 +7,7 @@ html, body {
    Background Image Fade-in
    ==================== */
 body {
-  background-color: rgba(46, 56, 66, 0.1);
+  background-color: rgba(46, 56, 66, 0.5);
   position: relative; /* für pseudo-element */
   z-index: 0;
   font-size: 0.75em;
