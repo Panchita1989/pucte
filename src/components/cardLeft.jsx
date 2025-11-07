@@ -1,6 +1,6 @@
 
 
-export default function CardLeft({title, children, img}){
+export default function CardLeft({title, children, img, iframe}){
 
     return(
         <>
@@ -9,9 +9,13 @@ export default function CardLeft({title, children, img}){
                 <section className='m-5 xl:p-10 xl:w-1/2 leading-relaxed text-neutral-300'>
                     {children}
                 </section>
-                <section className='m-5 xl:p-10 xl:w-1/2 flex justify-center'>
-                    <img src={img} alt="pucte" className='rounded' />
-                </section>
+                 <section className='m-5 xl:p-10 xl:w-1/2 flex justify-center'>
+                    {iframe ? (
+                        iframe
+                        ) : img ? (
+                        <img src={img} alt="pucte" className='rounded' />
+                        ) : null}
+                 </section>
             </section>            
         </>
     )

@@ -22,7 +22,7 @@ function Experiences() {
 
                               <p className='pb-5'>Private or collective. Sunset or midday. </p>
                               <h4>Choose your vessel:</h4> 
-                              <ul>
+                              <ul className='md:mb-5 pb-5'>
                                 <li>Catamaran</li>
                                 <li> Monohull</li>
                               </ul>                                            
