@@ -54,7 +54,7 @@ function Experiences() {
                     the privacy of your room or directly on the pier, surrounded by the peaceful sounds of nature.</p>
 
                     <span className=''>Reserve your Massage now:</span><br/>
-                    <a href="" className=''><FontAwesomeIcon icon={faWhatsapp} className="active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 text-3xl mt-5 rounded-xl" /></a>
+                    <a href="" className=''><FontAwesomeIcon icon={faWhatsapp} className="active:text-teal-950  xl:hover:text-teal-950 text-3xl rounded-xl mt-5" /></a>
 
 
                  </CardLeft>
