@@ -10,10 +10,10 @@ export default function Rooms() {
 
     return(
         <>  
-            <section className='mx-20 my-1 py-5 bg-teal-950/80 text-neutral-300'>
+            <section className='mx-20 my-1 py-5 bg-teal-950/80 text-neutral-300 tracking-widest leading-loose'>
                 <NavBar />
                 <CardLeft title='ROOMS' img='src/assets/images/rooms.webp'>
-                            <p className='mb-5'>Nestled in the heart of nature, Pucté is a tranquil retreat where timeless
+                            <p className='mb-5 '>Nestled in the heart of nature, Pucté is a tranquil retreat where timeless
                                 design meets the soul of the Mayan jungle. We offer four exclusive suites,
                                 each thoughtfully named after the sacred numbers of the ancient Mayan culture, 
                                 inviting you to connect with the heritage and rhythm of this land.

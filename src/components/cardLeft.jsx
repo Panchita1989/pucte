@@ -10,7 +10,7 @@ export default function CardLeft({title, children, img}){
                     {children}
                 </section>
                 <section className='m-5 xl:p-10 xl:w-1/2 flex justify-center'>
-                    <img src={img} alt="pucte" />
+                    <img src={img} alt="pucte" className='rounded' />
                 </section>
             </section>            
         </>
