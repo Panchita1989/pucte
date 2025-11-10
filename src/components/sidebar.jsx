@@ -4,7 +4,7 @@ const SideBar = ({visible, onClose}) => {
     const navMenu = ['Rooms', 'Bacalar', 'Experiences', 'Location', 'Contact']
     return(
         <div
-            className={`flex flex-col justify-between z-10 rounded-xl fixed top-0 right-0 h-full md:w-64 w-40 bg-neutral-300/40 backdrop-blur-md shadow-xl transform transition-transform duration-500 ease-in-out ${
+            className={`z-20 flex flex-col justify-between z-10 rounded-xl fixed top-0 right-0 h-full md:w-64 w-40 bg-neutral-300/40 backdrop-blur-md shadow-xl transform transition-transform duration-500 ease-in-out ${
                 visible ? "translate-x-0" : "translate-x-full"
                 }`}
         >

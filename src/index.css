@@ -1,54 +1,62 @@
 @import "tailwindcss";
 
+/* ====================
+   Grundlayout
+   ==================== */
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #2e3842; /* grauer Start-Hintergrund */
+  font-size: 0.75em;
 }
 
 /* ====================
-   Background Image Fade-in
+   BANNER (Container)
    ==================== */
-body {
-  background-color: rgba(46, 56, 66, 0.5);
-  position: relative; /* für pseudo-element */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: #e5e5e5;
+  overflow: hidden;
   z-index: 0;
-  font-size: 0.75em;
-  
 }
-.bg-layer {
-  position: fixed;
+
+/* ====================
+   HINTERGRUNDBILD via PSEUDO-ELEMENT
+   ==================== */
+.banner::before {
+  content: '';
+  position: absolute;
   inset: 0;
   background-image: url('/images/pucte.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: rgba(46, 56, 66, 0.5);
-  z-index: -1;
   opacity: 0;
   animation: fadeBg 2s forwards;
-  animation-delay: 2.5s;
-}
-
-
-
-@keyframes fadeBg {
-  from { opacity: 0; transform: scale(1.1); }
-  to { opacity: 1; transform: scale(1);}
+  animation-delay: 3s; /* NACH Content */
+  z-index: 0;
 }
 
 /* ====================
-   Fade-in Keyframe
+   Keyframes
    ==================== */
+@keyframes fadeBg {
+  from { opacity: 0; transform: scale(1.1); }
+  to { opacity: 1; transform: scale(1); }
+}
+
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
 }
 
-/* ====================
-   Border Animations
-   ==================== */
 @keyframes borderTop {
   from { transform: scaleX(0); transform-origin: left; }
   to { transform: scaleX(1); transform-origin: left; }
@@ -60,64 +68,82 @@ body {
 }
 
 /* ====================
-   H1 Animation + Borders
+   H1 (erscheint zuerst)
    ==================== */
 .h1-animate {
   position: relative;
   opacity: 0;
-  animation: fadeIn 0.7s forwards;
-  animation-delay: 0.5s;
-  padding: 0.5rem; /* optional, je nach Bedarf */
-}
-
-.h1-animate::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2px;
-  width: 100%;
-  background: white;
-  transform: scaleX(0);
-  transform-origin: left;
-  animation: borderTop 0.7s forwards;
-  animation-delay: 1s;
-}
-
-.h1-animate::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 2px;
-  width: 100%;
-  background: white;
-  transform: scaleX(0);
-  transform-origin: right;
-  animation: borderBottom 0.7s forwards;
-  animation-delay: 1s;
+  animation: fadeIn 1s forwards;
+  animation-delay: 0.5s; /* startet früh */
+  z-index: 1;
+  padding: 0.5rem;
 }
 
 /* ====================
-   Banner Content Fade-in
+   H1 Border (kommt nach dem H1)
+   ==================== */
+.h1-animate::before,
+.h1-animate::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: white;
+  transform: scaleX(0);
+}
+
+.h1-animate::before {
+  top: 0;
+  left: 0;
+  transform-origin: left;
+  animation: borderTop 0.7s forwards;
+  animation-delay: 1.2s; /* kurz nach H1 */
+}
+
+.h1-animate::after {
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  animation: borderBottom 0.7s forwards;
+  animation-delay: 1.2s;
+}
+
+/* ====================
+   Content (nach Border)
    ==================== */
 .content-animate {
   opacity: 0;
-  animation: fadeIn 2s forwards;
-  animation-delay: 1.5s;
+  animation: fadeIn 1.5s forwards;
+  animation-delay: 2s; /* nach H1 + Border */
+  z-index: 1;
 }
-.header{
+
+/* ====================
+   HEADER & FOOTER (ganz zuletzt)
+   ==================== */
+
+   /* Nur auf der Landing Page aktiv */
+body.home .header,
+body.home .footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
   opacity: 0;
-  animation: fadeIn 2s forwards;
-  animation-delay: 3s;
+  pointer-events: none;
+  animation: fadeInHeaderFooter 1.5s forwards;
+  animation-delay: 4.5s; /* nach Banner-Animation */
+  z-index: 10;
 }
-.footer{
-  opacity: 0;
-  animation: fadeIn 2s forwards;
-  animation-delay: 3s;
+
+body.home .header {
+  top: 0;
 }
-.info{
-  opacity: 0;
-  animation: fadeIn 2s forwards;
-  animation-delay: 3s;
+
+body.home .footer {
+  bottom: 0;
+}
+
+@keyframes fadeInHeaderFooter {
+  from { opacity: 0; }
+  to { opacity: 1; pointer-events: auto; }
 }

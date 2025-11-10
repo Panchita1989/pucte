@@ -15,7 +15,7 @@ export default function Banner(){
 
     return(
         <>
-        <main className='banner md:pt-50 pt-30 text-neutral-300 p-2 flex flex-col justify-center items-center gap-3'>
+        <main className='banner h-screen text-neutral-300 flex flex-col justify-center items-center gap-3'>
             <title>Pucté Hotel – A Slice of Paradise on Bacalar Lagoon</title>
             <h1 className='h1 text-5xl p-2 h1-animate'>PUCTÉ</h1>
             <h2 className=' text-2xl p-2 content-animate ' > Hotel Bacalar</h2>

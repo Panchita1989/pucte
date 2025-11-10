@@ -25,10 +25,6 @@ function App() {
 
   return (
     <>
-      {/* in App.jsx (direkt unterhalb von <body> bzw. dem root-container) */}
-      <div className="bg-layer">
-       
-      </div>
 
       <Header />
       <Routes>
