@@ -21,6 +21,14 @@ function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
+  
+   useEffect(() => {
+    if (pathname === "/") {
+      document.body.style.backgroundColor = "#2e3842"; // dunkelgrau (Landing)
+    } else {
+      document.body.style.backgroundColor = "#d9d9d9"; // hellgrau (andere Seiten)
+    }
+  }, [pathname]);
 
 
   return (

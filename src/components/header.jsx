@@ -28,8 +28,8 @@ export default function Header() {
       <header
         className={`header flex text-xl w-full z-20 items-center h-20 transition-all duration-700 ease-out ${
           show
-            ? 'sticky top-0 justify-between bg-black/60 backdrop-blur-md text-neutral-300 animate-[fadeIn_0.8s_ease-out_forwards]'
-            : 'fixed top-0 justify-end bg-teal-900/20 text-neutral-300 opacity-0 pointer-events-none animate-[fadeInHeaderFooter_1.5s_ease-out_4.5s_forwards]'
+            ? 'sticky top-0 justify-between  text-teal-950 animate-[fadeIn_0.8s_ease-out_forwards]'
+            : 'fixed top-0 justify-end bg-teal-950/20 text-neutral-300 opacity-0 pointer-events-none animate-[fadeInHeaderFooter_1.5s_ease-out_4.5s_forwards]'
         }`}
       >
         {show && (
