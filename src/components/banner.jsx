@@ -16,7 +16,7 @@ export default function Banner(){
     return(
         <>
         <main className='banner h-screen text-neutral-300 flex flex-col justify-center items-center gap-3'>
-            <title>Pucté Hotel – A Slice of Paradise on Bacalar Lagoon</title>
+            <title text-center>Pucté Hotel – A Slice of Paradise on Bacalar Lagoon</title>
             <h1 className='h1 text-5xl p-2 h1-animate'>PUCTÉ</h1>
             <h2 className=' text-2xl p-2 content-animate ' > Hotel Bacalar</h2>
             <meta name="description" content="Relax at Pucté Hotel, directly on Bacalar Lagoon. Comfortable rooms, stunning views, and unforgettable boat tours." />
