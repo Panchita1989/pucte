@@ -1,7 +1,5 @@
 import { useEffect } from 'react'
 import { useLocation } from "react-router-dom";
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Header from './components/header.jsx'
 import Banner from './components/banner.jsx'
