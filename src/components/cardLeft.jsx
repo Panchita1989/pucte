@@ -1,4 +1,4 @@
-
+import Gallery from './gallery.jsx'
 
 export default function CardLeft({title, children, img, alt, iframe}){
 
@@ -15,7 +15,7 @@ export default function CardLeft({title, children, img, alt, iframe}){
                         iframe
                         ) : img ? (
                         <img src={img} alt={alt || title} className='rounded' />
-                        ) : null}
+                        ) : <Gallery />}
                  </section>
             </section>            
         </>

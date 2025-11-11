@@ -4,6 +4,7 @@ import Button from './button.jsx'
 import ScrollToButton from './scrollToButton.jsx'
 
 
+
 export default function Banner(){
     const navigate = useNavigate()
     
@@ -24,6 +25,7 @@ export default function Banner(){
             <p className='banner-content text-2xl content-animate text-center'>A SLICE OF PARADISE ON BACALAR LAGOON</p>
             <Button className='banner-content bg-teal-950 active:bg-neutral-300 active:text-teal-950 xl:hover:bg-neutral-300 xl:hover:text-teal-950 p-2 rounded content-animate md:hover:cursor-pointer' content='Stay at Pucté' />
             <ScrollToButton handleShowMore={handleShowMore}/>
+            
         </main>
         </>
     )
