@@ -1,24 +1,23 @@
 
 import { useState } from "react";
-import { roomsList } from '../data/rooms.js'
 import Button from "./button.jsx";
 
-export default function Gallery() {
+export default function Gallery({images}) {
 
     const[index, setIndex] = useState(0)
 
     function handleClick() {
-      setIndex(prev => (prev + 1) % roomsList.length);
+      setIndex(prev => (prev + 1) % images.length);
     }
 
-    const room = roomsList[index]
+    const currentImage = images[index]
 
     return(
         <section className="flex flex-col items-center">
             <section>
                 <img
-                    src={room.url}
-                    alt={room.alt}
+                    src={currentImage.url}
+                    alt={currentImage.alt}
                     className='rounded shadow-md w-full mb-2'
                 />
             </section>

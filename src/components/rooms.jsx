@@ -3,6 +3,7 @@ import CardRight from './cardRight.jsx'
 import NavBar from './navBar.jsx'
 import Button from './button.jsx'
 import Footer from './footer.jsx'
+import { roomsList } from '../data/rooms.js'
 
 
 
@@ -22,7 +23,7 @@ export default function Rooms() {
                 />
                 <NavBar />
                 <h1 className='text-center'>PUCTÉ - LAGOON FRONT HOTEL</h1>
-                <CardLeft title='ROOMS' >
+                <CardLeft title='ROOMS' images={roomsList} >
                             <p className='mb-5 '>Nestled in the heart of nature, Pucté is a tranquil retreat where timeless
                                 design meets the soul of the Mayan jungle. We offer four exclusive suites,
                                 each thoughtfully named after the sacred numbers of the ancient Mayan culture, 
