@@ -6,7 +6,7 @@ import Footer from './footer.jsx'
 export default function Bacalar() {
     return(
         <>
-        <main className='mx-10 my-1 py-5 bg-teal-950/80 text-neutral-300 tracking-widest leading-loose ransition-opacity duration-700 ease-out opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]'>
+        <main className='mx-10 my-5 py-5 bg-teal-950/60 text-neutral-300 tracking-widest leading-loose ransition-opacity duration-700 ease-out opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]'>
             <title>Explore Bacalar – Pucté Hotel and Tours on Bacalar Lagoon</title>
             <meta 
                 name="description" 
