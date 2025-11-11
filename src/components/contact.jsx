@@ -11,9 +11,9 @@ function Contact() {
   return (
     <>
     
-    <section className='h-screen rounded xl:mx-20 mx-2 my-5 my-5 py-5 px-3 bg-teal-950/60 text-neutral-300 tracking-widest leading-loose transition-opacity duration-700 ease-out opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]'>
+    <section className='h-screen rounded xl:mx-20 mx-2 mt-5 px-3 bg-teal-950/60 text-neutral-300 tracking-widest leading-loose transition-opacity duration-700 ease-out opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]'>
       <NavBar />
-      <h1 className='text-center text-3xl font-bold mb-2'>Contact</h1>
+      <h1 className='pt-2 text-center text-3xl font-bold mb-2'>Contact</h1>
       <p className='text-center' >For more information please contact us:</p>
       
        <form onSubmit={handleSubmit} className='mt-10 flex flex-col justify-start items-center gap-4 w-full max-w-2xl mx-auto'>
@@ -92,7 +92,7 @@ function Contact() {
         />
       </div>
 
-      <button type="submit" disabled={state.submitting} className='bg-teal-950 text-neutral-300 p-2 rounded hover:bg-neutral-300 active:bg-neutral-300 hover:text-teal-950 active:text-teal-950 mt-2 w-full'>
+      <button type="submit" disabled={state.submitting} className='bg-teal-950 text-neutral-300 p-2 rounded hover:bg-neutral-300 active:bg-neutral-300 hover:text-teal-950 active:text-teal-950  w-full'>
         Submit
       </button>
     </form>
