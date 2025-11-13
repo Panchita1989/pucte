@@ -11,7 +11,7 @@ function Contact() {
   return (
     <>
     
-    <section className='h-screen rounded xl:mx-20 mx-2 mt-5 px-3 bg-teal-950/60 text-neutral-300 tracking-widest leading-loose transition-opacity duration-700 ease-out opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]'>
+    <section className='h-screen rounded xl:mx-20 md:mx-2 mt-5 px-3 bg-teal-950/60 text-neutral-300 tracking-widest leading-loose transition-opacity duration-700 ease-out opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]'>
       <NavBar />
       <h1 className='pt-2 text-center text-3xl font-bold mb-2'>Contact</h1>
       <p className='text-center' >For more information please contact us:</p>
