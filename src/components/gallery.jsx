@@ -22,7 +22,7 @@ export default function Gallery({images}) {
                 />
             </section>
             <section >
-                <Button onClick={handleClick} className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 px-1 w-full h-full rounded-full content-animate md:hover:cursor-pointer' content='→'/>
+                <Button onClick={handleClick} className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 px-1 w-full h-full rounded-full md:hover:cursor-pointer' content='→'/>
             </section>
         </section>
     )
