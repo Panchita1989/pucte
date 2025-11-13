@@ -18,8 +18,8 @@ export default function Footer() {
                 <h2 className='hidden md:block'>FOLLOW</h2>
                 <a href='https://www.instagram.com/pucte_bacalar/' target='blank'><FontAwesomeIcon className='mt-1 text-lg' icon={faInstagram} /></a>
             </section>
-            <section className='md:hidden'>
-                <a href='https://www.instagram.com/pucte_bacalar/' target='blank'><FontAwesomeIcon className='text-lg' icon={faWhatsapp} /></a>
+            <section className='text-center md:hidden'>
+                <a href='https://www.instagram.com/pucte_bacalar/' target='blank'><FontAwesomeIcon className='mt-1 text-lg' icon={faWhatsapp} /></a>
             </section>
         </section>
     )
