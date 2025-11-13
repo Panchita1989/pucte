@@ -21,7 +21,7 @@ export default function Bacalar() {
 
     return(
         <>
-        <main className='md:mx-10 my-5 py-5 bg-teal-950/60 text-neutral-300 tracking-widest leading-loose ransition-opacity duration-700 ease-out opacity-0 animate-[fadeIn_0.8s_ease-out_forwards]'>
+        <main className=' md:mx-10 mt-20 mb-5 py-5 bg-teal-950/60 text-neutral-300 tracking-widest leading-loose'>
             <title>Explore Bacalar – Pucté Hotel and Tours on Bacalar Lagoon</title>
             <meta 
                 name="description" 

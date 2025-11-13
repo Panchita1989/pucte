@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { useLayoutEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Header from './components/header.jsx'
@@ -16,7 +17,8 @@ function App() {
 
   const {pathname} = useLocation()
 
-  useEffect(() => {
+  useLayoutEffect(() => {
+    
     window.scrollTo(0, 0);
   }, [pathname]);
   
