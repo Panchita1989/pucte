@@ -5,7 +5,7 @@ export default function CardLeft({title, children, img, alt, iframe, images}){
     return(
         <>
             
-            <section className=' flex flex-col xl:flex-row md:items-center justify-center md:gap-8'>
+            <section className=' flex flex-col xl:flex-row justify-center md:gap-8'>
                 <section className='md:showAll m-5 xl:p-10 xl:w-1/2 leading-relaxed text-neutral-300'>
                 <h2 className='text-center mb-5'>{title.toUpperCase()}</h2>
                     {children}
