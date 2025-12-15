@@ -11,12 +11,12 @@ function Contact() {
   return (
     <>
     
-    <section className='h-screen rounded xl:mx-20 md:mx-2 mt-20 mb-5 px-3 bg-teal-950/60 text-neutral-300 tracking-widest leading-loose '>
+    <section className='h-screen rounded xl:mx-10 md:mx-2 mt-20 mb-5 px-3 bg-teal-950/60 text-neutral-300 tracking-widest leading-loose '>
       <NavBar />
       <h1 className='pt-2 text-center text-3xl font-bold mb-2'>Contact</h1>
       <p className='text-center' >For more information please contact us:</p>
       
-       <form onSubmit={handleSubmit} className='mt-10 flex flex-col justify-start items-center gap-4 w-full max-w-2xl mx-auto'>
+       <form onSubmit={handleSubmit} className='mx-10 flex flex-col justify-start items-center gap-4 w-full max-w-2xl mx-auto'>
         
         <fieldset className='w-full'>
         <div className='flex flex-col md:flex-row gap-4'>
@@ -81,7 +81,7 @@ function Contact() {
         <textarea
           id="message"
           name="message"
-          rows={5}
+          rows={3}
           className='border rounded p-2'
           required
         />
