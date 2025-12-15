@@ -60,7 +60,7 @@ function Location() {
       <h5>By Car</h5>
       <p className='mb-2'>You can rent a car at Chetumal Airport and enjoy a scenic 30-minute drive to Pucté. Complimentary parking is available 
         on-site for our guests.</p>
-      <h5>By Tren</h5>
+      <h5>By Train</h5>
       <p className='mb-2'>If you're arriving by the Tren Maya from Chetumal, the ride to Bacalar Station takes approximately 20 minutes.
         From there, Pucté is only about 10 minutes away. Taxis are readily available outside the station.</p>
     </section>
@@ -80,7 +80,7 @@ function Location() {
         You can travel from Tulum to Bacalar by ADO bus, with a comfortable ride of approximately 3 hours. 
         Once you arrive at the Bacalar bus station, taxis are available to bring you to Pucté in about 5 minutes.
       </p>
-      <h5>By Tren</h5>
+      <h5>By Train</h5>
       <p className='mb-2'>If you're traveling by the Tren Maya from Tulum, the journey to Bacalar Station takes around 1 hour. From the station,
         Pucté is just a 10-minute taxi ride away, with transportation readily available on arrival.</p>
     </section>
@@ -100,7 +100,7 @@ function Location() {
     You can travel from Cancún to Bacalar by ADO bus, with a comfortable ride of approximately 5 hours. 
     Once you arrive at the Bacalar bus station, taxis are available to bring you to Pucté in about 5 minutes.
    </p>
-   <h5>By Tren</h5>
+   <h5>By Train</h5>
    <p className='mb-2'>
     If you're traveling by the Tren Maya from Cancún, the journey to Bacalar Station takes around 1.5 hours. From the station, 
     Pucté is just a 10-minute taxi ride away, with transportation readily available on arrival.</p>
