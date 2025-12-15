@@ -15,10 +15,10 @@ export default function Gallery({images}) {
     return(
         <section className="flex flex-col items-center">
             <section>
-                <img
+                <img 
                     src={currentImage.url}
                     alt={currentImage.alt}
-                    className='rounded shadow-md w-full mb-2'
+                    className='rounded shadow-md w-full mb-2 max-h-100'
                 />
             </section>
             <section >
