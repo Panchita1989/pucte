@@ -37,7 +37,7 @@ export default function Rooms() {
                 <NavBar />
                 <h1 className='text-center'>PUCTÉ - LAGOON FRONT HOTEL</h1>
                 <CardLeft title='ROOMS' images={roomsList} >
-                            <p className='mb-5  '>Nestled in the heart of nature, Pucté is a tranquil retreat where timeless
+                            <p className='mb-5  text-[17px]'>Nestled in the heart of nature, Pucté is a tranquil retreat where timeless
                                 design meets the soul of the Mayan jungle.</p>
                                 {isRoomsExpanded ? '' : (
                                     <button className='border-1 rounded p-2' {...getToggleRooms()}>Show More</button>
@@ -72,7 +72,7 @@ export default function Rooms() {
                 </div>
                 <CardRight title='SPACES' images={spacesList}>
                     <h2>PALAPA</h2>
-                    <p className='mb-5'>The palapa area is a welcoming communal space featuring a well-equipped kitchen 
+                    <p className='mb-5 text-xl'>The palapa area is a welcoming communal space featuring a well-equipped kitchen 
                         with all modern appliances, including a stove, fridge, wine fridge, and coffee 
                         maker.</p>
                      {isSpacesExpanded ? '' : (

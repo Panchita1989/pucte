@@ -5,7 +5,7 @@ export default function CardRight({title, children, img, alt, images}){
     return(
         <>           
             <section className='flex flex-col xl:flex-row justify-center xl:gap-8'> 
-                <section className='m-5 xl:p-10 xl:w-1/2 flex justify-center'>
+                <section className=' m-5 xl:p-10 xl:w-1/2 flex justify-center'>
                     {img ? (
                         <img src={img} alt={alt || title} className='rounded' />
                     ) : <Gallery images={images} />}
