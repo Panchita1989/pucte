@@ -51,53 +51,53 @@ export default function Bacalar() {
             <CardRight title='FOOD' img='images/food.jpg' alt='Tigre Restaurant Bacalar'>
                 <p>Food connoisseur or simply someone seeking a delightful meal, we highly recommend these exceptional restaurants in Bacalar:</p>
                 <ul className='pt-5 flex justify-between flex-wrap'>
-                    <li><a href="">TIGRE</a></li>
+                    <li><a href="https://tigrebacalar.com/" target='blank'>TIGRE</a></li>
                     <li>|</li>
-                    <li><a href="">FINISTERRE</a></li>
+                     <li><a href="https://www.norumx.com/" target='blank'> NORU </a></li>
                     <li>|</li>
-                    <li><a href="">NIXTAMAL</a></li>
+                    <li><a href="https://share.google/VmAP1cVsyXgujgVux" target='blank'>NIXTAMAL</a></li>
                     <li>|</li>
-                    <li><a href="">CHEUNIC</a></li>
+                    <li><a href="https://casaumay.com/en/cheunic-espanol" target='blank'>CHEUNIC</a></li>
                 </ul>
             </CardRight>
             <CardLeft title='Time for a drink' img='images/drinks.jpg' alt='Tigre Restaurant'>
                 <p>Pucté's favorite stops for a relaxed night out:</p>
                 <ul className='pt-5 flex justify-between flex-wrap'>
-                    <li><a href="">TIGRE</a></li>
+                    <li><a href="https://tigrebacalar.com/" target='blank'>TIGRE</a></li>
                     <li>|</li>
-                    <li><a href="">NAO</a></li>
+                    <li><a href="https://www.norumx.com/" target='blank'> NORU </a></li>
                     <li>|</li>
-                    <li><a href="">HABITAS</a></li>
+                    <li><a href="https://linktr.ee/fruta_bacalar" target='blank'>FRUTA</a></li>
                     <li>|</li>
-                    <li><a href="">CATRINA - for Salsa</a></li>
+                    <li><a href="https://share.google/Zu4mNSMBpAxSy8gTF" target='blank'>CATRINA - for Salsa</a></li>
                 </ul>
             </CardLeft>
             <CardRight title='Water is everywhere and is everything' img='images/water.webp' alt='Tours and fun in the Lagoon'>
                 <p>We love the lagoon, so we always recommend avoiding motor vehicles. The most beautiful way to experience the
                     lagoon is by exploring it on your own. Our favorite water adventures include:</p>
                 <ul className='pt-5 flex justify-between flex-wrap'>
-                    <li><a href="">SAILING</a></li>
+                    <li>SAILING</li>
                     <li>|</li>
-                    <li><a href="">SUP</a></li>
+                    <li>SUP</li>
                     <li>|</li>
-                    <li><a href="">KAYAKS</a></li>
+                    <li>KAYAKS</li>
                     <li>|</li>
-                    <li><a href="">DIP IN THE CENOTE</a></li>  
+                    <li>DIP IN THE CENOTE</li>  
                 </ul>
             </CardRight>
             <CardLeft title='OUR PAST' img='images/past.webp' alt='History of Bacalar and the Lagoon'>
                 <p>To truly comprehend our present lives, we must genuinely embrace the richness of the past. In our quest for
                     cultural enlightenment, we highly recommend exploring the magnificent sites:</p>
                 <ul className='pt-5 flex justify-between flex-wrap'>
-                    <li><a href="">CALAKMUL</a></li>
+                    <li><a href="https://share.google/Hte2rzOiAzKRI0jLV" target='blank'>CALAKMUL</a></li>
                     <li>|</li>
-                    <li><a href="">KOHUNLICH</a></li>
+                    <li><a href="https://share.google/ai281cPrVryVnOy0O" target='blank'>KOHUNLICH</a></li>
                     <li>|</li>
-                    <li><a href="">CHACCHOBEN</a></li>
+                    <li><a href="https://www.chacchobenruins.com/" target='blank'>CHACCHOBEN</a></li>
                     <li>|</li>
-                    <li><a href="">FUERTE SAN FELIPE</a></li> 
+                    <li><a href="https://share.google/sl0EVpIsPFE5U1rTt" target='blank'>FUERTE SAN FELIPE</a></li> 
                     <li>|</li>
-                    <li><a href="">ICHKABAL</a></li> 
+                    <li><a href="https://share.google/u3rU2ehTMC5pL6Pkh" target='blank'>ICHKABAL</a></li> 
                     </ul>
             </CardLeft>
         </main>

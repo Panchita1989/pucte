@@ -17,7 +17,7 @@ export default function Footer() {
             </section>
             <section className='hidden md:block text-center'>
                 <h2>CONTACT</h2>
-                <p>info@pucte.com <br /><a href={url} target='blank' rel="noopener noreferrer">(+52) 983 752 96 59</a></p>
+                <p><a href="mailto:info@pucte.com?subject=Contact%20from%20Website&body=I%20would%20like%20to%20get%20more%20information.">info@pucte.com </a><br /><a href={url} target='blank' rel="noopener noreferrer">(+52) 983 752 96 59</a></p>
             </section>
             <section className='text-center' >
                 <h2 className='hidden md:block'>FOLLOW</h2>
