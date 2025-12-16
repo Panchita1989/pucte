@@ -3,6 +3,7 @@ import CardRight from './cardRight.jsx'
 import NavBar from './navBar.jsx'
 import Button from './button.jsx'
 import Footer from './footer.jsx'
+import Reviews from './reviews.jsx'
 import { roomsList } from '../data/rooms.js'
 import { spacesList } from '../data/spaces.js'
 import { useCollapse } from "react-collapsed";
@@ -99,6 +100,7 @@ export default function Rooms() {
                     )}    
                 </CardRight>
             </main>
+            <Reviews />
             <Footer />
         </>
         

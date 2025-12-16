@@ -3,8 +3,6 @@ import CardRight from './cardRight.jsx'
 import NavBar from './navBar.jsx'
 import Footer from './footer.jsx'
 import Button from './button.jsx'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 
 
@@ -29,21 +27,21 @@ function Experiences() {
                               <ul className='md:mb-5 pb-5'>
                                 <li className='mt-10 flex items-center justify-between border-b pb-2'>
                                   <h3>Catamaran</h3>
-                                  <a href="https://sailbacalar.com/" target='blank'>
+                                  <a href="https://sailbacalar.com/" target='_blank'>
                                   <Button 
                                     className='text-[14px] active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-1 rounded content-animate md:hover:cursor-pointer' 
                                     content='Book now' />
                                     </a></li>
                                 <li className='mt-10 flex items-center justify-between border-b pb-2'>
                                   <h3>Monohull</h3>
-                                  <a href="" target='blank'>
+                                  <a href="" target='_blank'>
                                   <Button 
                                     className='text-[14px] active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-1 rounded content-animate md:hover:cursor-pointer'
                                     content='Book now' />
                                     </a></li>
                                 <li className='mt-10 flex items-center justify-between border-b pb-2'>
                                   <h3>Hobby Cat</h3>
-                                  <a href="" target='blank'>
+                                  <a href="" target='_blank'>
                                   <Button 
                                     className='text-[14px] active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-1 rounded content-animate md:hover:cursor-pointer'
                                     content='Book now' />
