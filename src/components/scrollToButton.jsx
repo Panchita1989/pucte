@@ -10,11 +10,10 @@ export default function ScrollToButton({handleShowMore}){
 
     return(
         <section className='info content-animate text-neutral-300 text-2xl text-center '>
-            <p>Discover Pucté</p>
+           
             <Button 
-                content={<FontAwesomeIcon icon={faArrowDown} /> }
-                className='p-2 rounded-full bg-neutral-300 text-teal-900 active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300'
-                onClick={handleShowMore}/>
+                onClick={handleShowMore}
+                className='mt-10 banner-content bg-teal-950 active:bg-neutral-300 active:text-teal-950 xl:hover:bg-neutral-300 xl:hover:text-teal-950 p-2 rounded content-animate md:hover:cursor-pointer' content='See More' />
         </section>
     )
 }
