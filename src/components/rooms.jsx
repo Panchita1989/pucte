@@ -68,7 +68,10 @@ export default function Rooms() {
                             ) : ''}   
                 </CardLeft>
                 <div className='text-center mb-10'>
-                    <Button className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-2 rounded md:hover:cursor-pointer' content='Stay at Pucté' />
+                    <a  href="https://hotels.cloudbeds.com/reservation/pucté"  target="_blank">
+                        <Button 
+                            className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-2 rounded md:hover:cursor-pointer' content='Stay at Pucté' />
+                    </a>
                 </div>
                 <CardRight title='SPACES' images={spacesList}>
                     <h2>PALAPA</h2>

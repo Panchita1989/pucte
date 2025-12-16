@@ -27,7 +27,7 @@ const SideBar = ({visible, onClose}) => {
                                 </Link>
                     </li>
                 })}
-                    <li className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 rounded p-2 transition-colors' >Stay at Pucté</li>
+                    <li className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 rounded p-2 transition-colors'><a href="https://hotels.cloudbeds.com/reservation/pucté" target='blank'> Stay at Pucté</a></li>
                 </ul> 
                 <span className='text-center text-gray-900 text-sm'>  © {new Date().getFullYear()} Pucté. All rights reserved.</span>           
         </div>
