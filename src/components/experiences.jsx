@@ -27,20 +27,27 @@ function Experiences() {
                               <p className='pb-5'>Private or collective. Sunset or midday. </p>
                               <h4>Choose your vessel:</h4> 
                               <ul className='md:mb-5 pb-5'>
-                                <li className='mt-10 flex items-center justify-between border-b p-2'>
+                                <li className='mt-10 flex items-center justify-between border-b pb-2'>
                                   <h3>Catamaran</h3>
                                   <a href="https://sailbacalar.com/" target='blank'>
                                   <Button 
                                     className='text-[14px] active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-1 rounded content-animate md:hover:cursor-pointer' 
                                     content='Book now' />
                                     </a></li>
-                                <li className='mt-10 flex items-center justify-between border-b p-2'>
+                                <li className='mt-10 flex items-center justify-between border-b pb-2'>
                                   <h3>Monohull</h3>
                                   <a href="" target='blank'>
                                   <Button 
                                     className='text-[14px] active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-1 rounded content-animate md:hover:cursor-pointer'
                                     content='Book now' />
                                     </a></li>
+                                <li className='mt-10 flex items-center justify-between border-b pb-2'>
+                                  <h3>Hobby Cat</h3>
+                                  <a href="" target='blank'>
+                                  <Button 
+                                    className='text-[14px] active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-1 rounded content-animate md:hover:cursor-pointer'
+                                    content='Book now' />
+                                  </a></li>
                               </ul>                                            
                  </CardLeft>               
                  <CardRight title='PADDLE BOARD TOUR' img='images/paddle.png'>
