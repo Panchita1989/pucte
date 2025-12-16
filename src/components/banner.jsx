@@ -9,10 +9,6 @@ export default function Banner(){
     const navigate = useNavigate()
     
 
-    const handleShowMore = () =>{
-        navigate('/rooms')        
-     
-    }
 
     return(
         <>
@@ -23,8 +19,7 @@ export default function Banner(){
             <meta name="description" content="Relax at Pucté Hotel, directly on Bacalar Lagoon. Comfortable rooms, stunning views, and unforgettable boat tours." />
             <meta name="keywords" content="Hotel Bacalar, Bacalar Lagoon, Pucté Hotel, Lagoonfront Hotel, Bacalar Accommodation" />
             <p className='banner-content text-2xl content-animate text-center'>A SLICE OF PARADISE ON BACALAR LAGOON</p>
-        
-            <ScrollToButton handleShowMore={handleShowMore}/>
+            <ScrollToButton />
             
         </main>
         </>

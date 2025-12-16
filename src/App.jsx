@@ -12,7 +12,6 @@ import Location from './components/location.jsx'
 import Contact from './components/contact.jsx'
 
 
-
 function App() {
 
   const {pathname} = useLocation()
