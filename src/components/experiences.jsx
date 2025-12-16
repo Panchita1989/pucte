@@ -9,6 +9,10 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 
 function Experiences() { 
+
+      const massage = "Hi 👋 I would like to reserve a massage"
+      const urlMassage = `https://api.whatsapp.com/send?phone=529837529659&text=${encodeURIComponent(massage)}`
+
      return(
          <>  
              <section className=' md:mx-10 mt-20 mb-5 py-5 bg-teal-950/60 text-neutral-300 tracking-widest leading-loose'>
@@ -23,14 +27,21 @@ function Experiences() {
                               <p className='pb-5'>Private or collective. Sunset or midday. </p>
                               <h4>Choose your vessel:</h4> 
                               <ul className='md:mb-5 pb-5'>
-                                <li>Catamaran</li>
-                                <li> Monohull</li>
+                                <li className='mt-10 flex items-center justify-between border-b p-2'>
+                                  <h3>Catamaran</h3>
+                                  <a href="https://sailbacalar.com/" target='blank'>
+                                  <Button 
+                                    className='text-[14px] active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-1 rounded content-animate md:hover:cursor-pointer' 
+                                    content='Book now' />
+                                    </a></li>
+                                <li className='mt-10 flex items-center justify-between border-b p-2'>
+                                  <h3>Monohull</h3>
+                                  <a href="" target='blank'>
+                                  <Button 
+                                    className='text-[14px] active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-1 rounded content-animate md:hover:cursor-pointer'
+                                    content='Book now' />
+                                    </a></li>
                               </ul>                                            
-                              <div className='text-center mb-10'>
-                                <Button 
-                                  className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-2 rounded content-animate md:hover:cursor-pointer' 
-                                  content='Book now' />
-                              </div>    
                  </CardLeft>               
                  <CardRight title='PADDLE BOARD TOUR' img='images/paddle.png'>
                      <h6 className='pb-5'>Introductory Stand Up Paddleboard Lesson</h6>
@@ -43,18 +54,25 @@ function Experiences() {
                       No prior experience needed—our certified instructors will guide and support you throughout the entire journey.
                      </p>
                      <div className='text-center mb-10'>
+                      <a href="" target='blank'>
                         <Button 
                           className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-2 rounded content-animate md:hover:cursor-pointer' 
                           content='Book now' />
+                      </a>
                     </div>
                  </CardRight>
                  <CardLeft title='MASSAGE' img='images/massage.webp'>
                   <p className='pb-5'>Treat yourself to a deeply relaxing massage with the best view Bacalar has to offer — right in front of the
                     lagoon. You can choose between an individual or couples massage, given by a male or female therapist, either in 
                     the privacy of your room or directly on the pier, surrounded by the peaceful sounds of nature.</p>
-
-                    <span className=''>Reserve your Massage now:</span><br/>
-                    <a href="" className=''><FontAwesomeIcon icon={faWhatsapp} className="active:text-teal-950  xl:hover:text-teal-950 text-3xl rounded-xl mt-5" /></a>
+                  <p>Reserve your Massage now:</p>
+                  <div className='text-center mt-5'>
+                      <a href={urlMassage} target='blank'>
+                        <Button 
+                          className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-2 rounded content-animate md:hover:cursor-pointer' 
+                          content='Book now' />
+                      </a>
+                  </div>
 
 
                  </CardLeft>

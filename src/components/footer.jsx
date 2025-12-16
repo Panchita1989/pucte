@@ -17,14 +17,15 @@ export default function Footer() {
             </section>
             <section className='hidden md:block text-center'>
                 <h2>CONTACT</h2>
-                <p><a href="mailto:info@pucte.com?subject=Contact%20from%20Website&body=I%20would%20like%20to%20get%20more%20information.">info@pucte.com </a><br /><a href={url} target='blank' rel="noopener noreferrer">(+52) 983 752 96 59</a></p>
+                <p><a href="mailto:info@pucte.com?subject=Contact%20from%20Website&body=I%20would%20like%20to%20get%20more%20information.">info@pucte.com </a><br />
+                <a href={url} target='blank' rel="noopener noreferrer">(+52) 983 752 96 59</a></p>
             </section>
             <section className='text-center' >
                 <h2 className='hidden md:block'>FOLLOW</h2>
                 <a href='https://www.instagram.com/pucte_bacalar/' target='blank'><FontAwesomeIcon className='mt-1 text-lg' icon={faInstagram} /></a>
             </section>
             <section className='text-center md:hidden'>
-                <a href='https://www.instagram.com/pucte_bacalar/' target='blank'><FontAwesomeIcon className='mt-1 text-lg' icon={faWhatsapp} /></a>
+                <a href={url} target='blank'><FontAwesomeIcon className='mt-1 text-lg' icon={faWhatsapp} /></a>
             </section>
         </section>
     )
