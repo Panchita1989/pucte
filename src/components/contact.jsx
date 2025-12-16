@@ -6,7 +6,7 @@ import NavBar from './navBar.jsx'
 function Contact() {
   const [state, handleSubmit] = useForm("mdkynnob");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return <p className='text-center mt-80'>Thanks for joining!</p>;
   }
   return (
     <>
