@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 
 const SideBar = ({visible, onClose}) => {
      const { t } = useTranslation()
-    const navMenu = [t('sideNav.rooms'), t('sideNav.bacalar'), t('sideNav.experiences'), t('sideNav.location'), t('sideNav.contact')]
+    const navMenu = [ { path: '/rooms', label: t('sideNav.rooms') },  {path: '/bacalar', label: t('sideNav.bacalar')}, {path: '/experiences', label: t('sideNav.experiences')}, {path: '/location', label: t('sideNav.location')}, {path: '/contact', label:t('sideNav.contact')}]
    
     return(
         <div
@@ -20,13 +20,13 @@ const SideBar = ({visible, onClose}) => {
                
                 <ul className="flex flex-col items-center mt-20 space-y-8 text-lg font-medium text-gray-800">
                 {navMenu.map(e => {              
-                    return <li key={e}
+                    return <li key={e.path}
                             onClick={onClose}
                             className='text-[20px]'>
                                 <Link className="active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 rounded p-2 transition-colors"
-                                 to={`/${e.toLowerCase()}`}
+                                 to={`${e.path}`}
                                 >
-                                    {e}
+                                    {e.label}
                                 </Link>
                     </li>
                 })}

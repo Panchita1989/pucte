@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next'
 
 export default function Banner(){
     const { t, i18n } = useTranslation()
-    i18n.changeLanguage('fr')
+    i18n.changeLanguage('en')
     
     return(
         <>
