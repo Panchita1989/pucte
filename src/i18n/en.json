@@ -1,0 +1,17 @@
+{
+  "banner": {
+    "subtitle": "Hotel Boutique",
+    "headline": "Un rincón de paraíso a orillas de la laguna de Bacalar"
+  },
+  "buttons": {
+    "book": "Reservar"
+  },
+  "sideNav": {
+    "rooms": "Habitaciones",
+    "bacalar": "Bacalar",
+    "experiences": "Experiencias",
+    "location": "Ubicación",
+    "contact": "Contacto",
+    "stay": "Hospedarse en Pucté"
+  }
+}

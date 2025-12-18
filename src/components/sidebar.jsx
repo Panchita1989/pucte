@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next'
 
 const SideBar = ({visible, onClose}) => {
-    const navMenu = ['Rooms', 'Bacalar', 'Experiences', 'Location', 'Contact']
+     const { t } = useTranslation()
+    const navMenu = [t('sideNav.rooms'), t('sideNav.bacalar'), t('sideNav.experiences'), t('sideNav.location'), t('sideNav.contact')]
+   
     return(
         <div
             className={`z-20 flex flex-col justify-between z-10 rounded-xl fixed top-0 right-0 h-full md:w-64 w-40 bg-neutral-300/40 backdrop-blur-md shadow-xl transform transition-transform duration-500 ease-in-out ${
@@ -27,7 +30,7 @@ const SideBar = ({visible, onClose}) => {
                                 </Link>
                     </li>
                 })}
-                    <li className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 rounded p-2 transition-colors'><a href="https://hotels.cloudbeds.com/reservation/pucté" target='blank'> Stay at Pucté</a></li>
+                    <li className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 rounded p-2 transition-colors'><a href="https://hotels.cloudbeds.com/reservation/pucté" target='blank'> {t('sideNav.stay')}</a></li>
                 </ul> 
                 <span className='text-center text-gray-900 text-sm'>  © {new Date().getFullYear()} Pucté. All rights reserved.</span>           
         </div>

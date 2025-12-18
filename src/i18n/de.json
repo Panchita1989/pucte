@@ -1,0 +1,17 @@
+{
+  "banner": {
+    "subtitle": "Boutique Hotel",
+    "headline": "Ein Stück Paradies an der Lagune von Bacalar"
+  },
+  "buttons": {
+    "book": "Jetzt Buchen"
+  },
+  "sideNav": {
+    "rooms": "Zimmer",
+    "bacalar": "Bacalar",
+    "experiences": "Erlebnisse",
+    "location": "Anfahrt",
+    "contact": "Kontakt",
+    "stay": "Jetzt buchen"
+  }
+}

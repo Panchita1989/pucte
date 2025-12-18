@@ -1,0 +1,17 @@
+{
+  "banner": {
+    "subtitle": "Hôtel Boutique",
+    "headline": "Un coin de paradis au bord de la lagune de Bacalar"
+  },
+  "buttons": {
+    "book": "Réserver"
+  },
+  "sideNav": {
+    "rooms": "Chambres",
+    "bacalar": "Bacalar",
+    "experiences": "Expériences",
+    "location": "Localisation",
+    "contact": "Contact",
+    "stay": "Vivez Pucté"
+  }
+}
