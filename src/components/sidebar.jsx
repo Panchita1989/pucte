@@ -2,9 +2,13 @@ import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next'
 
 const SideBar = ({visible, onClose}) => {
-     const { t } = useTranslation()
+     const { t,  i18n  } = useTranslation()
     const navMenu = [ { path: '/rooms', label: t('sideNav.rooms') },  {path: '/bacalar', label: t('sideNav.bacalar')}, {path: '/experiences', label: t('sideNav.experiences')}, {path: '/location', label: t('sideNav.location')}, {path: '/contact', label:t('sideNav.contact')}]
-   
+    
+    const changeLanguage = (lang) => {
+        i18n.changeLanguage(lang)
+    }
+
     return(
         <div
             className={`z-20 flex flex-col justify-between z-10 rounded-xl fixed top-0 right-0 h-full md:w-64 w-40 bg-neutral-300/40 backdrop-blur-md shadow-xl transform transition-transform duration-500 ease-in-out ${
@@ -32,7 +36,16 @@ const SideBar = ({visible, onClose}) => {
                 })}
                     <li className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 rounded p-2 transition-colors'><a href="https://hotels.cloudbeds.com/reservation/pucté" target='blank'> {t('sideNav.stay')}</a></li>
                 </ul> 
-                <span className='text-center text-gray-900 text-sm'>  © {new Date().getFullYear()} Pucté. All rights reserved.</span>           
+                <div className="mt-6 text-center pt-4 text-sm">
+                    <div className="mt-6 text-sm flex justify-center space-x-4">
+                        <button onClick={() => changeLanguage('en')} className={i18n.language === 'en' ? 'underline font-semibold' : "cursor-pointer "}>EN</button>
+                        <button onClick={() => changeLanguage('es')} className={i18n.language === 'es' ? 'underline font-semibold' : "cursor-pointer "}>ES</button>
+                        <button onClick={() => changeLanguage('de')} className={i18n.language === 'de' ? 'underline font-semibold' : "cursor-pointer "}>DE</button>
+                        <button onClick={() => changeLanguage('fr')} className={i18n.language === 'fr' ? 'underline font-semibold' : "cursor-pointer "}>FR</button>
+                    </div>
+                
+                    <span className='text-center text-gray-900 text-sm'>  © {new Date().getFullYear()} Pucté. All rights reserved.</span>     
+                </div>      
         </div>
     )
 }
