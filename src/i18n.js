@@ -11,13 +11,6 @@ const supportedLanguages = ['en', 'es', 'fr', 'de']
 const savedLang = localStorage.getItem('lang')
 const browserLang = navigator.language.split('-')[0]
 
-const initialLang =
-  savedLang && supportedLanguages.includes(savedLang)
-    ? savedLang
-    : supportedLanguages.includes(browserLang)
-      ? browserLang
-      : 'en'
-
 i18n
   .use(initReactI18next)
   .init({
@@ -27,7 +20,7 @@ i18n
       fr: { translation: fr },
       de: { translation: de }
     },
-    lng: initialLang,
+    lng: "en",
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false
