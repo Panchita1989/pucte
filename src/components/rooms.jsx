@@ -7,11 +7,12 @@ import Reviews from './reviews.jsx'
 import { roomsList } from '../data/rooms.js'
 import { spacesList } from '../data/spaces.js'
 import { useCollapse } from "react-collapsed";
+import { useTranslation } from 'react-i18next'
 
 
 
-
-export default function Rooms() {    
+export default function Rooms() {  
+    const { t,  i18n  } = useTranslation()  
 
     const { 
         getCollapseProps: getCollapsRooms,
@@ -36,36 +37,31 @@ export default function Rooms() {
                     content="Pucté Hotel, Bacalar Lagoon, Lagoon Front Hotel, Bacalar Mexico, Suites Bacalar, Hotel with Dock, Palapa Bacalar"
                 />
                 <NavBar />
-                <h1 className='text-center'>PUCTÉ - LAGOON FRONT HOTEL</h1>
-                <CardLeft title='ROOMS' images={roomsList} >
-                            <p className='mb-5  text-[17px]'>Nestled in the heart of nature, Pucté is a tranquil retreat where timeless
-                                design meets the soul of the Mayan jungle.</p>
+                <h1 className='text-center'>{t('rooms.title')}</h1>
+                <CardLeft title={t('nav.rooms').toUpperCase()} images={roomsList} >
+                            <p className='mb-5  text-[17px]'>
+                                {t('rooms.description')}
+                            </p>
                                 {isRoomsExpanded ? '' : (
-                                    <button className='border-1 rounded p-2' {...getToggleRooms()}>Show More</button>
+                                    <button className='border-1 rounded p-2' {...getToggleRooms()}>{t('buttons.show')}</button>
                                 )}
                              <section className='mb-5' {...getCollapsRooms()}>
-                                    <p>We offer four exclusive suites,
-                                    each thoughtfully named after the sacred numbers of the ancient Mayan culture, 
-                                    inviting you to connect with the heritage and rhythm of this land.
-                                    Each suite is equipped with air conditioning to ensure a cool and comfortable 
-                                    stay. A dedicated work desk is provided for those who need to stay connected or
-                                    inspired, and the private bathroom offers a serene space to refresh and unwind.</p>
-                                    <h2 className='mt-8 mb-2'>UPSTAIRS ROOMS</h2>    
+                                    <p>
+                                        {t('rooms.descriptionExpanded')}
+                                    </p>
+                                    <h2 className='mt-8 mb-2'>{t('rooms.up').toUpperCase()}</h2>    
                                     <h3>KA'A | HUN</h3>
-                                    <p>Experience tranquility in our upstairs rooms, each featuring a comfortable
-                                        king-size bed perfect for a restful night’s sleep. Wake up to stunning views of
-                                        the lagoon from your private terrace, where you can enjoy a morning coffee or
-                                        unwind in the evening. The upstairs location provides a more elevated perspective
-                                        of the beautiful surroundings, enhancing your stay with panoramic vistas.</p>
-                                    <h2 className='mt-8 mb-2'>DOWNSTAIRS ROOMS</h2>
+                                    <p>
+                                        {t('rooms.upDescription')}
+                                    </p>
+                                    <h2 className='mt-8 mb-2'>{t('rooms.down').toUpperCase()}</h2>
                                     <h3>KAN | OX</h3>
-                                    <p>Our downstairs rooms offer the convenience of easy access to the main palapa,
-                                        communal area, and kitchen, making it ideal for socializing or enjoying a meal.
-                                        Step out onto your private terrace to take in the serene lagoon views, a perfect
-                                        spot to relax and soak in the natural beauty of Bacalar.</p>
+                                    <p>
+                                        {t('rooms.downDescription')}
+                                    </p>
                             </section> 
                             {isRoomsExpanded ? (
-                             <button className='border-1 rounded p-2' {...getToggleRooms()}>Show Less</button>
+                             <button className='border-1 rounded p-2' {...getToggleRooms()}>{t("buttons.less")}</button>
                             ) : ''}   
                 </CardLeft>
                 <div className='text-center mb-10'>
@@ -74,29 +70,25 @@ export default function Rooms() {
                             className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-2 rounded md:hover:cursor-pointer' content='Stay at Pucté' />
                     </a>
                 </div>
-                <CardRight title='SPACES' images={spacesList}>
+                <CardRight title={t('rooms.subtitle').toUpperCase()} images={spacesList}>
                     <h2>PALAPA</h2>
-                    <p className='mb-5 text-xl'>The palapa area is a welcoming communal space featuring a well-equipped kitchen 
-                        with all modern appliances, including a stove, fridge, wine fridge, and coffee 
-                        maker.</p>
+                    <p className='mb-5 text-[17px]'>
+                        {t('rooms.palapaDescription')}
+                    </p>
                      {isSpacesExpanded ? '' : (
-                        <button className='border-1 rounded p-2' {...getToggleSpaces()}>Show More</button>
+                        <button className='border-1 rounded p-2' {...getToggleSpaces()}>{t('buttons.show')}</button>
                     )}
                     <section className='mb-5' {...getCollapseSpaces()}>
-                                <p>A dining table for six and comfortable sofas create an ideal setting for 
-                                    meals and relaxation. This open-air area offers breathtaking views of the deck 
-                                    and lagoon, providing a perfect backdrop for socializing and enjoying the natural
-                                    beauty of Bacalar.</p>
-                                <h2 className='mt-8'>PIER</h2>
-                                <p className='md:mb-5'>Step outside and discover our private dock—your front-row seat to the beauty of 
-                                    the lagoon. Whether you're watching the sunset paint the sky, reading a book 
-                                    with your feet in the water, sunbathing, or enjoying a refreshing swim, this 
-                                    peaceful space invites you to slow down and reconnect. For those seeking a bit 
-                                    of adventure, kayaks and paddleboards are available to explore the lagoon at 
-                                    your own rhythm, guided only by the sound of nature.</p>         
+                                <p>
+                                    {t('rooms.palapaDescriptionExpanded')}
+                                </p>
+                                <h2 className='mt-8'>{t('rooms.subtitle').toUpperCase()}</h2>
+                                <p className='md:mb-5'>
+                                    {t('rooms.pierDescription')}
+                                </p>         
                     </section>  
                      {!isSpacesExpanded ? '' : (
-                        <button className='border-1 rounded p-2' {...getToggleSpaces()}>Show Less</button>
+                        <button className='border-1 rounded p-2' {...getToggleSpaces()}>{t('buttons.less')}</button>
                     )}    
                 </CardRight>
             </main>

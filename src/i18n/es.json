@@ -4,14 +4,31 @@
     "headline": "Un rincón de paraíso a orillas de la laguna de Bacalar"
   },
   "buttons": {
-    "book": "Reservar"
+    "book": "Reservar",
+    "show": "Mostrar más",
+    "less": "Mostrar menos"
   },
-  "sideNav": {
+  "nav": {
     "rooms": "Habitaciones",
     "bacalar": "Bacalar",
     "experiences": "Experiencias",
     "location": "Ubicación",
     "contact": "Contacto",
     "stay": "Hospedarse en Pucté"
+  },
+  "rooms":{
+    "title": "PUCTÉ - HOTEL FRENTE A LA LAGUNA",
+    "description": "Ubicado en el corazón de la naturaleza, Pucté es un refugio tranquilo donde el diseño atemporal se encuentra con el alma de la selva maya.",
+    "descriptionExpanded": "Ofrecemos cuatro suites exclusivas, cada una cuidadosamente nombrada según los números sagrados de la antigua cultura maya, invitándote a conectarte con la herencia y el ritmo de esta tierra. Cada suite cuenta con aire acondicionado para garantizar una estancia fresca y confortable. Se proporciona un escritorio dedicado para quienes necesiten mantenerse conectados o inspirados, y el baño privado ofrece un espacio sereno para refrescarse y relajarse.",
+    "up": "Planta superior",
+    "upDescription": "Disfrute de la tranquilidad en nuestras habitaciones en el piso superior, cada una equipada con una cómoda cama king-size, perfecta para un sueño reparador. Despierte con impresionantes vistas de la laguna desde su terraza privada, donde podrá disfrutar de un café por la mañana o relajarse por la noche. La ubicación en la planta superior ofrece una perspectiva más elevada de los hermosos alrededores, mejorando su estancia con vistas panorámicas.",
+    "down": "Planta baja",
+    "downDescription": "Nuestras habitaciones en la planta baja ofrecen la comodidad de un fácil acceso a la palapa principal, al área común y a la cocina, lo que las hace ideales para socializar o disfrutar de una comida. Salga a su terraza privada y disfrute de las tranquilas vistas de la laguna, un lugar perfecto para relajarse y disfrutar de la belleza natural de Bacalar.",
+    "suptitle": "Espacios",
+    "palapaDescription": "El área de la palapa es un acogedor punto de encuentro con una cocina bien equipada con todos los electrodomésticos modernos, incluyendo estufa, refrigerador, refrigerador para vinos y cafetera.",
+    "palapaDescriptionExpanded": "Una mesa para seis personas y cómodos sofás crean un entorno ideal para comidas y relajación. Esta zona al aire libre ofrece impresionantes vistas de la terraza y la laguna, proporcionando un marco perfecto para socializar y disfrutar de la belleza natural de Bacalar.",
+    "pier": "Muelle",
+    "pierDescription": "Salga y descubra nuestro muelle privado: su asiento en primera fila para disfrutar de la belleza de la laguna. Ya sea observando la puesta de sol, leyendo un libro con los pies en el agua, tomando el sol o disfrutando de un baño refrescante, este tranquilo espacio invita a relajarse y reconectarse. Para quienes buscan un poco de aventura, hay kayaks y paddleboards disponibles para explorar la laguna a su propio ritmo, guiados solo por el sonido de la naturaleza."
+    
   }
 }

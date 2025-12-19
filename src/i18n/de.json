@@ -4,14 +4,32 @@
     "headline": "Ein Stück Paradies an der Lagune von Bacalar"
   },
   "buttons": {
-    "book": "Jetzt Buchen"
+    "book": "Jetzt Buchen",
+    "show": "Mehr anzeigen",
+    "less": "Weniger anzeigen"
   },
-  "sideNav": {
+  "nav": {
     "rooms": "Zimmer",
     "bacalar": "Bacalar",
     "experiences": "Erlebnisse",
     "location": "Anreise",
     "contact": "Kontakt",
     "stay": "Jetzt buchen"
-  }
+  },
+   "rooms":{
+   "title": "PUCTÉ - HOTEL AN DER LAGUNE",
+   "description": "Mitten in der Natur gelegen, ist Pucté ein ruhiger Rückzugsort, wo zeitloses Design auf die einzigartige Natur der Maya-Region trifft.",
+   "descriptionExpanded": "Wir bieten vier exklusive Suiten an, die jeweils sorgfältig nach den heiligen Zahlen der alten Maya-Kultur benannt sind und Sie einladen, mit dem Erbe und dem Rhythmus dieses Landes in Kontakt zu treten. Jede Suite ist mit Klimaanlage ausgestattet, um einen kühlen und komfortablen Aufenthalt zu gewährleisten. Ein eigener Schreibtisch steht für alle bereit, die verbunden bleiben oder inspiriert arbeiten möchten, und das private Badezimmer bietet einen ruhigen Raum zum Erfrischen und Entspannen.",
+   "up": "Obergeschoss",
+   "upDescription": "Erleben Sie Ruhe und Entspannung in unseren Zimmern im Obergeschoss, die jeweils mit einem komfortablen King-Size-Bett ausgestattet sind – perfekt für einen erholsamen Schlaf. Erwachen Sie zu atemberaubenden Ausblicken auf die Lagune von Ihrer privaten Terrasse aus, auf der Sie Ihren Morgenkaffee genießen oder am Abend entspannen können. Die Lage im Obergeschoss bietet eine erhöhte Perspektive auf die wunderschöne Umgebung und bereichert Ihren Aufenthalt mit Panoramablicken.",
+   "down": "Erdgeschoss",
+   "downDescription": "Unsere Zimmer im Erdgeschoss bieten den Vorteil eines einfachen Zugangs zur Hauptpalapa, zum Gemeinschaftsbereich und zur Küche, was sie ideal zum Geselligsein oder für gemeinsame Mahlzeiten macht. Treten Sie auf Ihre private Terrasse hinaus und genießen Sie den ruhigen Blick auf die Lagune – ein perfekter Ort zum Entspannen und um die natürliche Schönheit von Bacalar auf sich wirken zu lassen.",
+   "subtitle": "Treffpunkte",
+   "palapaDescription": "Der Palapa-Bereich ist ein einladender Treffpunkt mit einer gut ausgestatteten Küche, die alle modernen Geräte umfasst, einschließlich Herd, Kühlschrank, Weinkühlschrank und Kaffeemaschine.",
+   "palapaDescriptionExpanded": "Ein Esstisch für sechs Personen und bequeme Sofas schaffen den idealen Rahmen für Mahlzeiten und Entspannung. Dieser offene Bereich bietet atemberaubende Ausblicke auf das Deck und die Lagune und ist der perfekte Ort, um sich zu treffen und die natürliche Schönheit von Bacalar zu genießen.",
+   "pier": "Steg",
+   "pierDescription": "Treten Sie hinaus und entdecken Sie unseren privaten Steg – Ihr Platz in erster Reihe, um die Schönheit der Lagune zu genießen. Ob beim Sonnenuntergang, beim Lesen eines Buches mit den Füßen im Wasser, beim Sonnenbaden oder bei einem erfrischenden Bad – dieser ruhige Ort lädt dazu ein, zu entschleunigen und neue Energie zu tanken. Für Abenteuerlustige stehen Kajaks und Paddleboards bereit, um die Lagune in Ihrem eigenen Rhythmus zu erkunden, nur vom Klang der Natur begleitet."
+
+}  
+ 
 }

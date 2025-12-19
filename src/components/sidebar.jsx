@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next'
 
 const SideBar = ({visible, onClose}) => {
-     const { t,  i18n  } = useTranslation()
-    const navMenu = [ { path: '/rooms', label: t('sideNav.rooms') },  {path: '/bacalar', label: t('sideNav.bacalar')}, {path: '/experiences', label: t('sideNav.experiences')}, {path: '/location', label: t('sideNav.location')}, {path: '/contact', label:t('sideNav.contact')}]
+    const { t,  i18n  } = useTranslation()
+    const navMenu = [ { path: '/rooms', label: t('nav.rooms') },  {path: '/bacalar', label: t('nav.bacalar')}, {path: '/experiences', label: t('nav.experiences')}, {path: '/location', label: t('nav.location')}, {path: '/contact', label:t('nav.contact')}]
     
     const changeLanguage = (lang) => {
         i18n.changeLanguage(lang)
@@ -34,7 +34,7 @@ const SideBar = ({visible, onClose}) => {
                                 </Link>
                     </li>
                 })}
-                    <li className='text-center active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 rounded p-2 transition-colors'><a href="https://hotels.cloudbeds.com/reservation/pucté" target='blank'> {t('sideNav.stay')}</a></li>
+                    <li className='text-center active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 rounded p-2 transition-colors'><a href="https://hotels.cloudbeds.com/reservation/pucté" target='blank'> {t('nav.stay')}</a></li>
                 </ul> 
                 <div className="mt-6 text-center pt-4 text-sm">
                     <div className="mt-6 text-sm flex justify-center space-x-4">
