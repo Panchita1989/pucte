@@ -34,7 +34,7 @@ const SideBar = ({visible, onClose}) => {
                                 </Link>
                     </li>
                 })}
-                    <li className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 rounded p-2 transition-colors'><a href="https://hotels.cloudbeds.com/reservation/pucté" target='blank'> {t('sideNav.stay')}</a></li>
+                    <li className='text-center active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 rounded p-2 transition-colors'><a href="https://hotels.cloudbeds.com/reservation/pucté" target='blank'> {t('sideNav.stay')}</a></li>
                 </ul> 
                 <div className="mt-6 text-center pt-4 text-sm">
                     <div className="mt-6 text-sm flex justify-center space-x-4">
