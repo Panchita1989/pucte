@@ -67,7 +67,7 @@ export default function Rooms() {
                 <div className='text-center mb-10'>
                     <a  href="https://hotels.cloudbeds.com/reservation/pucté"  target="_blank">
                         <Button 
-                            className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-2 rounded md:hover:cursor-pointer' content='Stay at Pucté' />
+                            className='active:bg-teal-950 active:text-neutral-300 xl:hover:bg-teal-950 xl:hover:text-neutral-300 banner-content bg-neutral-300 text-teal-950 p-2 rounded md:hover:cursor-pointer' content={t('nav.stay')} />
                     </a>
                 </div>
                 <CardRight title={t('rooms.subtitle').toUpperCase()} images={spacesList}>
