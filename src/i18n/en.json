@@ -78,5 +78,17 @@
         "cancunCar": "Rent a car in Cancún and enjoy a scenic 4-hour drive to Pucté. The route is straightforward, and parking is available on-site for our guests.",
         "cancunAdo": "You can travel from Cancún to Bacalar by ADO bus, with a comfortable ride of approximately 5 hours. Once you arrive at the Bacalar bus station, taxis are available to bring you to Pucté in about 5 minutes.",
         "cancunTrain": "If you're traveling by the Tren Maya from Cancún, the journey to Bacalar Station takes around 1.5 hours. From the station, Pucté is just a 10-minute taxi ride away, with transportation readily available on arrival."
+    },
+    "contact":{
+        "title": "Contact",
+        "thanks": "Thank you for your message! We’ll get back to you as soon as possible.",
+        "subtitle": "For more information please contact us:",
+        "first": "First Name",
+        "last": "Last Name",
+        "email": "Email Address",
+        "subject": "Subject",
+        "message": "Message",
+        "send": "Send"
+
     }
 }

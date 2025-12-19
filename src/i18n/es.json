@@ -78,5 +78,16 @@
     "cancunCar": "Alquila un coche en Cancún y disfruta de un recorrido escénico de aproximadamente 4 horas hasta Pucté. La ruta es sencilla y contamos con estacionamiento disponible en el lugar para nuestros huéspedes.",
     "cancunAdo": "Puedes viajar de Cancún a Bacalar en autobús ADO, con un trayecto cómodo de aproximadamente 5 horas. Al llegar a la terminal de autobuses de Bacalar, encontrarás taxis disponibles que te llevarán a Pucté en unos 5 minutos.",
     "cancunTrain": "Si viajas en el Tren Maya desde Cancún, el trayecto hasta la estación de Bacalar dura aproximadamente 1,5 horas. Desde allí, Pucté está a solo 10 minutos en taxi, con transporte disponible al llegar."
-} 
+},
+ "contact":{
+     "title": "Contacto",
+     "thanks": "¡Gracias por tu mensaje! Te responderemos lo antes posible.",
+     "subtitle": "Para más información, no dudes en contactarnos:",
+     "first": "Nombre",
+     "last": "Apellido",
+     "email": "Correo electrónico",
+     "subject": "Asunto",
+     "message": "Mensaje",
+     "send": "Enviar"
+ } 
 }
