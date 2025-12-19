@@ -34,5 +34,18 @@
     "location": "Ubicación",
     "contact": "Contacto",
     "follow": "Sìguenos"
+  },
+  "bacalar":{
+    "title": "Explora Bacalar",
+    "bacalarDescription": "Ubicada en la costa este de la península de Yucatán, la encantadora ciudad de Bacalar es la puerta de entrada al paraíso.",
+    "bacalarDescriptionExpanded": "Bacalar está impregnada de historia y cultura, con un patrimonio que se remonta a las antiguas civilizaciones mayas. La laguna de Bacalar, también conocida como la Laguna de los Siete Colores, cautiva a los visitantes con sus tonos impresionantes y su ambiente tranquilo.",
+    "foodDescription": "Ya seas un amante de la buena comida o simplemente busques una comida deliciosa, te recomendamos estos restaurantes excepcionales en Bacalar:",
+    "drinksDescription": "Los lugares favoritos de Pucté para una noche relajada:",
+    "water": "Agua por todas partes – todo por descubrir",
+    "waterDescription": "Amamos la laguna, por eso siempre recomendamos evitar vehículos motorizados. La mejor manera de disfrutarla es explorándola a tu propio ritmo. Nuestras aventuras acuáticas favoritas incluyen:",
+    "sail": "Vela",
+    "cenote": "Chapuzón en el cenote",
+    "past": "Pasado",
+    "pastDescription": "Para comprender plenamente nuestra vida presente, debemos apreciar la riqueza del pasado. Para una experiencia cultural recomendamos:"
   }
 }

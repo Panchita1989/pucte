@@ -34,6 +34,18 @@
     "location": "Localisation",
     "contact": "Contact",
     "follow": "Suivez-nous"
- }
-  
+ },
+ "bacalar":{
+    "title": "Explorez Bacalar",
+    "bacalarDescription":  "Située sur la côte est de la péninsule du Yucatán, la charmante ville de Bacalar sert de porte d’entrée au paradis.",
+    "bacalarDescriptionExpanded":  "Imprégnée d’histoire et de culture, Bacalar possède un riche patrimoine remontant aux anciennes civilisations mayas. La lagune de Bacalar, également connue sous le nom de Lagune aux Sept Couleurs, enchante les visiteurs par ses eaux cristallines et ses teintes vibrantes.",
+    "foodDescription":  "Gourmet ou simplement à la recherche d’un repas délicieux, nous recommandons vivement ces restaurants exceptionnels à Bacalar :",
+    "drinksDescription": "Les endroits préférés de Pucté pour une soirée détendue :",
+    "water":  "L’eau partout – vivre l’instant",
+    "waterDescription":  "Nous aimons la lagune, c’est pourquoi nous recommandons toujours d’éviter les véhicules motorisés. La meilleure façon de découvrir la lagune est de l’explorer par vous-même, à votre rythme.",
+    "sail":  "Voile",
+    "cenote": "Baignade dans le cénote",
+    "past": "Passé",
+    "pastDescription":  "Pour comprendre véritablement notre vie actuelle, nous devons embrasser pleinement la richesse du passé. Dans notre quête d’éveil culturel, nous recommandons vivement de découvrir les sites historiques et les traditions de Bacalar."
+ }  
 }

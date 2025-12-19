@@ -3,9 +3,12 @@ import CardRight from './cardRight.jsx'
 import NavBar from './navBar.jsx'
 import Footer from './footer.jsx'
 import { useCollapse } from "react-collapsed";
+import { useTranslation } from 'react-i18next'
 
 
 export default function Bacalar() {
+
+    const { t, i18n } = useTranslation()
 
     const {
         getCollapseProps: getCollapseBacalar,
@@ -30,26 +33,27 @@ export default function Bacalar() {
             <meta name="keywords" content="Bacalar, Bacalar Lagoon, Lagoon of Seven Colors, Pucté Hotel, Bacalar restaurants, Bacalar activities, Bacalar tours" />
             
             <NavBar />
-            <h1 className='text-center'>EXPLORE BACALAR</h1>
+            <h1 className='text-center'>{t('bacalar.title').toUpperCase()}</h1>
             <CardLeft title='BACALAR' img='images/bacalar1.jpg' alt="Aerial view of Bacalar Lagoon in Mexico" >
                 <p className='tracking-widest leading-loose mb-5'>
-                    Located on the eastern coast of the Yucatán Peninsula, the charming town of Bacalar serves as the gateway to
-                    paradise. </p>
+                    {t('bacalar.bacalarDescription')}
+                </p>
                  {isBacalarExpanded ? '' : (
-                    <button className='border-1 rounded p-2' {...getToggleBacalar()}>Show More</button>
+                    <button className='border-1 rounded p-2' {...getToggleBacalar()}>{t('buttons.show')}</button>
                 )}
                  <section className='mb-5' {...getCollapseBacalar()}>
-                    <p>Steeped in history and culture, Bacalar town boasts a rich heritage dating back to ancient Mayan 
-                        civilizations. Bacalar Lagoon, also known as the 'Lagoon of Seven Colors,' is a mesmerizing natural wonder in 
-                        the heart of Quintana Roo, Mexico. With its crystal-clear turquoise waters and lush surrounding landscapes, 
-                        this enchanting lagoon captivates visitors from around the world.</p>
+                    <p>
+                        {t('bacalar.bacalarDescriptionExpanded')}
+                    </p>
                  </section>
                 {!isBacalarExpanded ? '' : (
-                    <button className='border-1 rounded p-2' {...getToggleBacalar()}>Show More</button>
+                    <button className='border-1 rounded p-2' {...getToggleBacalar()}>{t('buttons.less')}</button>
                 )}
             </CardLeft>
             <CardRight title='FOOD' img='images/food.jpg' alt='Tigre Restaurant Bacalar'>
-                <p>Food connoisseur or simply someone seeking a delightful meal, we highly recommend these exceptional restaurants in Bacalar:</p>
+                <p>
+                    {t('bacalar.foodDescription')}
+                </p>
                 <ul className='pt-5 flex justify-between flex-wrap'>
                     <li><a href="https://tigrebacalar.com/" target='blank'>TIGRE</a></li>
                     <li>|</li>
@@ -61,7 +65,7 @@ export default function Bacalar() {
                 </ul>
             </CardRight>
             <CardLeft title='Time for a drink' img='images/drinks.jpg' alt='Tigre Restaurant'>
-                <p>Pucté's favorite stops for a relaxed night out:</p>
+                <p>{t('bacalar.drinksDescription')}</p>
                 <ul className='pt-5 flex justify-between flex-wrap'>
                     <li><a href="https://tigrebacalar.com/" target='blank'>TIGRE</a></li>
                     <li>|</li>
@@ -72,22 +76,24 @@ export default function Bacalar() {
                     <li><a href="https://share.google/Zu4mNSMBpAxSy8gTF" target='blank'>CATRINA - for Salsa</a></li>
                 </ul>
             </CardLeft>
-            <CardRight title='Water is everywhere and is everything' img='images/water.webp' alt='Tours and fun in the Lagoon'>
-                <p>We love the lagoon, so we always recommend avoiding motor vehicles. The most beautiful way to experience the
-                    lagoon is by exploring it on your own. Our favorite water adventures include:</p>
+            <CardRight title={t('bacalar.water').toUpperCase()} img='images/water.webp' alt='Tours and fun in the Lagoon'>
+                <p>
+                    {t('bacalar.waterDescription')}
+                </p>
                 <ul className='pt-5 flex justify-between flex-wrap'>
-                    <li>SAILING</li>
+                    <li>{t('bacalar.sail').toUpperCase()}</li>
                     <li>|</li>
                     <li>SUP</li>
                     <li>|</li>
                     <li>KAYAKS</li>
                     <li>|</li>
-                    <li>DIP IN THE CENOTE</li>  
+                    <li>{t('bacalar.cenote').toUpperCase()}</li>  
                 </ul>
             </CardRight>
-            <CardLeft title='OUR PAST' img='images/past.webp' alt='History of Bacalar and the Lagoon'>
-                <p>To truly comprehend our present lives, we must genuinely embrace the richness of the past. In our quest for
-                    cultural enlightenment, we highly recommend exploring the magnificent sites:</p>
+            <CardLeft title={t('bacalar.past').toUpperCase()} img='images/past.webp' alt='History of Bacalar and the Lagoon'>
+                <p>
+                    {t('bacalar.pastDescription')}
+                </p>
                 <ul className='pt-5 flex justify-between flex-wrap'>
                     <li><a href="https://share.google/Hte2rzOiAzKRI0jLV" target='blank'>CALAKMUL</a></li>
                     <li>|</li>

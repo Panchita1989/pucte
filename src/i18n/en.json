@@ -34,5 +34,18 @@
     "location": "Location",
     "contact": "Contact",
     "follow": "follow"
+    },
+    "bacalar":{
+    "title": "explore bacalar",
+    "bacalarDescription": "Located on the eastern coast of the Yucatán Peninsula, the charming town of Bacalar serves as the gateway to paradise.",
+    "bacalarDescriptionExpanded": "Steeped in history and culture, Bacalar town boasts a rich heritage dating back to ancient Mayan civilizations. Bacalar Lagoon, also known as the 'Lagoon of Seven Colors,' is a mesmerizing natural wonder in the heart of Quintana Roo, Mexico. With its crystal-clear turquoise waters and lush surrounding landscapes, this enchanting lagoon captivates visitors from around the world.",
+    "foodDescription": "Food connoisseur or simply someone seeking a delightful meal, we highly recommend these exceptional restaurants in Bacalar:",
+    "drinksDescription": "Pucté's favorite stops for a relaxed night out:",
+    "water": "water is everywhere and is everything",
+    "waterDescription": "We love the lagoon, so we always recommend avoiding motor vehicles. The most beautiful way to experience the lagoon is by exploring it on your own. Our favorite water adventures include:,",
+    "sail": "sailing",
+    "cenote": "dip in the Cenote",
+    "past": "past",
+    "pastDescription": "To truly comprehend our present lives, we must genuinely embrace the richness of the past. In our quest for cultural enlightenment, we highly recommend exploring the magnificent sites:"
     }
 }

@@ -34,6 +34,19 @@
     "location": "Standort",
     "contact": "Kontakt",
     "follow": "Folge uns"
+   },
+   "bacalar":{
+    "title": "Entdecke Bacalar",
+    "bacalarDescription": "An der Ostküste der Halbinsel Yucatán gelegen, dient die charmante Stadt Bacalar als Tor zum Paradies.",
+    "bacalarDescriptionExpanded":  "Bacalar, reich an Geschichte und Kultur, verfügt über ein Erbe, das bis zu den alten Maya-Zivilisationen zurückreicht. Die Bacalar-Lagune, auch Lagune der Sieben Farben genannt, verzaubert Besucher mit kristallklarem Wasser und lebhaften Farben.",
+    "foodDescription": "Feinschmecker oder einfach hungrig nach einem köstlichen Essen? Wir empfehlen diese hervorragenden Restaurants in Bacalar:",
+    "drinksDescription": "Puctés Lieblingsorte für einen entspannten Abend:",
+    "water": "Wasser überall – alles erleben",
+    "waterDescription":  "Wir lieben die Lagune und empfehlen daher, motorisierte Fahrzeuge zu meiden. Am schönsten erlebt man sie, wenn man sie in seinem eigenen Tempo erkundet. Unsere liebsten Wasser-Aktivitäten:",
+    "sail": "Segeln",
+    "cenote": "Sprung in die Cenote",
+    "past":  "Vergangenheit",
+    "pastDescription":  "Um unser heutiges Leben wirklich zu verstehen, müssen wir den Reichtum der Vergangenheit bewusst erleben. Auf unserer Suche nach kultureller Inspiration empfehlen wir, Bacalars historische Stätten und Traditionen zu erkunden."
    }
  
 }
