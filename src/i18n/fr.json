@@ -47,5 +47,17 @@
     "cenote": "Baignade dans le cénote",
     "past": "Passé",
     "pastDescription":  "Pour comprendre véritablement notre vie actuelle, nous devons embrasser pleinement la richesse du passé. Dans notre quête d’éveil culturel, nous recommandons vivement de découvrir les sites historiques et les traditions de Bacalar."
- }  
+ },
+ "experiences":{
+    "title": "Expériences",
+    "description":  "Depuis le quai de Pucté, nous partons à la voile. Une escapade privée qui commence directement depuis le quai de Pucté dans la lagune de Bacalar — juste vous, l’eau et le vent. Choisissez votre itinéraire : cénotes, mangroves ou quais secrets perdus dans le temps. Chaque excursion dure jusqu’à 3 heures, portée par la brise.",
+    "options": "Privé ou collectif. Coucher de soleil ou midi.",
+    "vessel" : "À vous de choisir le bateau:",
+    "catamaran": "Catamaran",
+    "monohull": "Monocoque",
+    "paddleTitle": "Tour en Stand Up Paddle",
+    "paddleIntro": "Cours d’initiation au Stand Up Paddle.",
+    "paddleDescription": "Commencez votre journée avec un petit-déjeuner léger : café ou thé, fruits de saison, toast avec confiture et beurre de cacahuète. Ensuite, profitez d’une visite guidée au Cenote Negro et à Bird Island. (Renseignez-vous sur les itinéraires exclusifs pour les tours privés.) Photos incluses pour immortaliser l’expérience. Tout le matériel est fourni : planche, leash, pagaie et gilet de sauvetage. Aucune expérience préalable requise – nos instructeurs certifiés vous guideront tout au long du parcours.",
+    "massageDescription": "Offrez-vous un massage profondément relaxant avec la meilleure vue de Bacalar — juste devant la lagune. Vous pouvez choisir entre un massage individuel ou en couple, effectué par un thérapeute homme ou femme, soit dans l’intimité de votre chambre, soit directement sur le quai, entouré des sons apaisants de la nature. Réservez votre massage maintenant :"
+ } 
 }

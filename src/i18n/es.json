@@ -47,5 +47,17 @@
     "cenote": "Chapuzón en el cenote",
     "past": "Pasado",
     "pastDescription": "Para comprender plenamente nuestra vida presente, debemos apreciar la riqueza del pasado. Para una experiencia cultural recomendamos:"
+  },
+  "experiences":{
+    "title": "Experiencias",
+    "description": "Desde el muelle de Pucté zarpamos. Una escapada privada que parte directamente desde el muelle de Pucté hacia la laguna de Bacalar — solo tú, el agua y el viento. Elige tu ruta: cenotes, manglares o muelles secretos perdidos en el tiempo. Cada recorrido dura hasta 3 horas, llevado por la brisa.",
+    "options": "Privado o colectivo. Atardecer o mediodía.",
+    "vessel" : "Elige tu embarcación",
+    "catamaran": "Catamarán",
+    "monohull": "Monocasco",
+    "paddleTitle": "Tour en Paddle Board",
+    "paddleIntro": "Lección introductoria de Stand Up Paddle.",
+    "paddleDescription": "Comienza tu día con un desayuno ligero: café o té, frutas de temporada, tostadas con mermelada y mantequilla de maní. Luego, disfruta de un tour guiado al Cenote Negro y a Bird Island. (Consulta sobre rutas exclusivas disponibles para tours privados.) Fotos incluidas para capturar la experiencia. Proporcionamos todo el equipo necesario: paddleboard, leash, remo y chaleco salvavidas. No se necesita experiencia previa; nuestros instructores certificados te guiarán y apoyarán durante todo el recorrido.",
+    "massageDescription": "Date un masaje profundamente relajante con la mejor vista que Bacalar tiene para ofrecer — justo frente a la laguna. Puedes elegir entre un masaje individual o en pareja, realizado por un terapeuta masculino o femenino, ya sea en la privacidad de tu habitación o directamente en el muelle, rodeado de los sonidos tranquilos de la naturaleza. Reserva tu masaje ahora:"
   }
 }

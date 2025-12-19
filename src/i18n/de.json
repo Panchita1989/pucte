@@ -47,6 +47,20 @@
     "cenote": "Sprung in die Cenote",
     "past":  "Vergangenheit",
     "pastDescription":  "Um unser heutiges Leben wirklich zu verstehen, müssen wir den Reichtum der Vergangenheit bewusst erleben. Auf unserer Suche nach kultureller Inspiration empfehlen wir, Bacalars historische Stätten und Traditionen zu erkunden."
+   },
+   "experiences": {
+    "title":"Momente & Abenteuer",
+    "description": "Vom Steg von Pucté legen wir ab. Ein privater Ausflug direkt von Puctés Steg in die Lagune von Bacalar — nur du, das Wasser und der Wind. Wähle deine Route: Cenoten, Mangroven oder geheime Stege, verloren in der Zeit. Jede Tour dauert bis zu 3 Stunden und wird von der Brise getragen.",
+    "options": "Privat oder Zusammen mit anderen. Sonnenuntergang oder Mittag.",
+    "vessel" : "Welches Segelboot darf es sein?:",
+    "catamaran": "Katamaran",
+    "monohull": "Segelboot",
+    "paddleTitle": "Stand Up Paddle Tour",
+    "paddleIntro": "Einführung in das Stand Up Paddleboarding.",
+    "paddleDescription": "Beginne deinen Tag mit einem leichten Frühstück: Kaffee oder Tee, saisonales Obst, Toast mit Marmelade und Erdnussbutter. Anschließend genieße eine geführte Tour zum Cenote Negro und zur Bird Island. (Frage nach exklusiven Routen für private Touren.) Fotos sind inklusive, um das Erlebnis festzuhalten. Wir stellen die gesamte Ausrüstung bereit: Paddleboard, Leash, Paddel und Schwimmweste. Keine Vorkenntnisse nötig – unsere zertifizierten Guides begleiten dich während der gesamten Tour.",
+    "massageDescription":  "Gönn dir eine tief entspannende Massage mit der besten Aussicht, die Bacalar zu bieten hat — direkt vor der Lagune. Du kannst zwischen einer Einzel- oder Paarmassage wählen, gegeben von einem männlichen oder weiblichen Therapeuten, entweder in der Privatsphäre deines Zimmers oder direkt auf dem Steg, umgeben von den friedlichen Klängen der Natur. Buche jetzt deine Massage:"
+
    }
+
  
 }

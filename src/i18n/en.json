@@ -4,7 +4,7 @@
     "headline": "A slice of paradise on Bacalar Lagoon"
   },
   "buttons": {
-    "book": "Book",
+    "book": "Book Now",
     "show": "Show More",
     "less": "Show Less"
   },
@@ -47,5 +47,17 @@
     "cenote": "dip in the Cenote",
     "past": "past",
     "pastDescription": "To truly comprehend our present lives, we must genuinely embrace the richness of the past. In our quest for cultural enlightenment, we highly recommend exploring the magnificent sites:"
+    },
+    "experiences":{
+        "title": "experiences",
+        "description":  "From the dock of Pucté, we sail. A private escape that departs right from Pucté's dock into Bacalar’s lagoon — just you, the water, and the wind. Choose your route: cenotes, mangroves, or secret piers lost in time. Each tour lasts up to 3 hours, carried by the breeze.",
+        "options": "Private or collective. Sunset or midday.",
+        "vessel" : "Choose your vessel:",
+        "catamaran": "Catamaran",
+        "monohull": "Monohull",
+        "paddleTitle": "Paddle Board Tour",
+        "paddleIntro": "Introductory Stand Up Paddleboard Lesson",
+        "paddleDescription": "Start your day with a light breakfast: coffee or tea, seasonal fruit, toast with jam and peanut butter. Then, enjoy a guided tour to Cenote Negro and Bird Island. (Ask about exclusive routes available for private tours.) Photos are included to capture the experience. We provide all the equipment you need: paddleboard, leash, paddle, and life jacket. No prior experience needed—our certified instructors will guide and support you throughout the entire journey.",
+        "massageDescription": "Treat yourself to a deeply relaxing massage with the best view Bacalar has to offer — right in front of the lagoon. You can choose between an individual or couples massage, given by a male or female therapist, either in the privacy of your room or directly on the pier, surrounded by the peaceful sounds of nature.Reserve your Massage now:"
     }
 }
