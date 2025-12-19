@@ -59,5 +59,24 @@
     "paddleIntro": "Cours d’initiation au Stand Up Paddle.",
     "paddleDescription": "Commencez votre journée avec un petit-déjeuner léger : café ou thé, fruits de saison, toast avec confiture et beurre de cacahuète. Ensuite, profitez d’une visite guidée au Cenote Negro et à Bird Island. (Renseignez-vous sur les itinéraires exclusifs pour les tours privés.) Photos incluses pour immortaliser l’expérience. Tout le matériel est fourni : planche, leash, pagaie et gilet de sauvetage. Aucune expérience préalable requise – nos instructeurs certifiés vous guideront tout au long du parcours.",
     "massageDescription": "Offrez-vous un massage profondément relaxant avec la meilleure vue de Bacalar — juste devant la lagune. Vous pouvez choisir entre un massage individuel ou en couple, effectué par un thérapeute homme ou femme, soit dans l’intimité de votre chambre, soit directement sur le quai, entouré des sons apaisants de la nature. Réservez votre massage maintenant :"
- } 
+ },
+"location":{
+    "title": "Localisation",
+    "description": "Pucté est situé le long de la route fédérale, à seulement 10 minutes en voiture du centre de Bacalar.",
+    "chetumal": "depuis Chetumal",
+    "chetumalTaxi": "Si vous arrivez depuis l’aéroport en taxi ou en navette, le trajet jusqu’à Pucté dure environ 40 minutes. Si le chauffeur ne connaît pas notre emplacement, voici une astuce utile : demandez-lui de dépasser le centre de Bacalar. Environ 5 minutes plus tard, il atteindra le carrefour de Reforma au km 22,5. Depuis l’arrêt de bus, il devra tourner à droite sur le chemin de terre, en passant devant l’Hotel Puerta del Cielo et le Balneario Aron Merino. Ces repères le mèneront directement jusqu’à nous.",
+    "car": "En voiture",
+    "chetumalCar": "Vous pouvez louer une voiture à l’aéroport de Chetumal et profiter d’un trajet panoramique d’environ 30 minutes jusqu’à Pucté. Un parking gratuit est disponible sur place pour nos hôtes.",
+    "train": "En Train",
+    "chetumalTrain": "Si vous arrivez en Tren Maya depuis Chetumal, le trajet jusqu’à la gare de Bacalar dure environ 20 minutes. Depuis la gare, Pucté se trouve à seulement 10 minutes. Des taxis sont facilement disponibles à la sortie de la station.",
+    "tulum": "depuis Tulum",
+    "ado": "En ADO",
+    "tulumCar": "Louez une voiture dans le centre de Tulum et profitez d’un trajet panoramique d’environ 2 h 30 jusqu’à Pucté. Le parcours offre de superbes paysages, et un parking est disponible sur place pour nos hôtes.",
+    "tulumAdo": "Vous pouvez voyager de Tulum à Bacalar en bus ADO, avec un trajet confortable d’environ 3 heures. À votre arrivée à la gare routière de Bacalar, des taxis sont disponibles pour vous conduire à Pucté en environ 5 minutes.",
+    "tulumTrain": "Si vous voyagez en Tren Maya depuis Tulum, le trajet jusqu’à la gare de Bacalar dure environ 1 heure.Depuis la gare, Pucté se trouve à seulement 10 minutes en taxi, avec des transports disponibles à l’arrivée.",
+    "cancun": "Depuis Cancun",
+    "cancunCar": "Louez une voiture à Cancún et profitez d’un trajet panoramique d’environ 4 heures jusqu’à Pucté. L’itinéraire est simple, et un parking est disponible sur place pour nos hôtes.",
+    "cancunAdo": "Vous pouvez voyager de Cancún à Bacalar en bus ADO, avec un trajet confortable d’environ 5 heures. À votre arrivée à la gare routière de Bacalar, des taxis sont disponibles pour vous conduire à Pucté en environ 5 minutes.",
+    "cancunTrain": "Si vous voyagez avec le Tren Maya depuis Cancún, le trajet jusqu’à la gare de Bacalar dure environ 1h30. Depuis la gare, Pucté se trouve à seulement 10 minutes en taxi, avec des transports facilement disponibles à l’arrivée."
+} 
 }
