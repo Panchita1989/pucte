@@ -29,6 +29,10 @@
     "palapaDescriptionExpanded": "Una mesa para seis personas y cómodos sofás crean un entorno ideal para comidas y relajación. Esta zona al aire libre ofrece impresionantes vistas de la terraza y la laguna, proporcionando un marco perfecto para socializar y disfrutar de la belleza natural de Bacalar.",
     "pier": "Muelle",
     "pierDescription": "Salga y descubra nuestro muelle privado: su asiento en primera fila para disfrutar de la belleza de la laguna. Ya sea observando la puesta de sol, leyendo un libro con los pies en el agua, tomando el sol o disfrutando de un baño refrescante, este tranquilo espacio invita a relajarse y reconectarse. Para quienes buscan un poco de aventura, hay kayaks y paddleboards disponibles para explorar la laguna a su propio ritmo, guiados solo por el sonido de la naturaleza."
-    
+  },
+  "footer":{
+    "location": "Ubicación",
+    "contact": "Contacto",
+    "follow": "Sìguenos"
   }
 }

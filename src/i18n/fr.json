@@ -28,8 +28,12 @@
    "palapaDescription":  "L’espace palapa est un lieu accueillant où l’on peut se retrouver, doté d’une cuisine bien équipée avec tous les appareils modernes, y compris une cuisinière, un réfrigérateur, un réfrigérateur à vin et une cafetière.",
    "palapaDescriptionExpanded":  "Une table à manger pour six personnes et des canapés confortables créent un cadre idéal pour les repas et la détente. Cet espace ouvert offre une vue imprenable sur la terrasse et la lagune, constituant un cadre parfait pour se retrouver et profiter de la beauté naturelle de Bacalar.",
    "pier": "Jetée",
-   "pierDescription": "Sortez et découvrez notre jetée privée – votre place au premier rang pour admirer la beauté de la lagune. Que ce soit pour contempler le coucher de soleil, lire un livre les pieds dans l’eau, prendre un bain de soleil ou profiter d’une baignade rafraîchissante, cet espace paisible invite à ralentir et à se reconnecter. Pour les amateurs d’aventure, des kayaks et des paddleboards sont disponibles pour explorer la lagune à votre rythme, guidés uniquement par le son de la nature."
-  
+   "pierDescription": "Sortez et découvrez notre jetée privée – votre place au premier rang pour admirer la beauté de la lagune. Que ce soit pour contempler le coucher de soleil, lire un livre les pieds dans l’eau, prendre un bain de soleil ou profiter d’une baignade rafraîchissante, cet espace paisible invite à ralentir et à se reconnecter. Pour les amateurs d’aventure, des kayaks et des paddleboards sont disponibles pour explorer la lagune à votre rythme, guidés uniquement par le son de la nature." 
+ },
+ "footer":{
+    "location": "Localisation",
+    "contact": "Contact",
+    "follow": "Suivez-nous"
  }
   
 }

@@ -29,5 +29,10 @@
     "palapaDescriptionExpanded": "A dining table for six and comfortable sofas create an ideal setting for meals and relaxation. This open-air area offers breathtaking views of the deck and lagoon, providing a perfect backdrop for socializing and enjoying the natural beauty of Bacalar.",
     "pier": "Pier",
     "pierDescription": "Step outside and discover our private dock—your front-row seat to the beauty of the lagoon. Whether you're watching the sunset paint the sky, reading a book with your feet in the water, sunbathing, or enjoying a refreshing swim, this peaceful space invites you to slow down and reconnect. For those seeking a bit of adventure, kayaks and paddleboards are available to explore the lagoon at your own rhythm, guided only by the sound of nature."
-  }
+  },
+    "footer":{
+    "location": "Location",
+    "contact": "Contact",
+    "follow": "follow"
+    }
 }

@@ -29,7 +29,11 @@
    "palapaDescriptionExpanded": "Ein Esstisch für sechs Personen und bequeme Sofas schaffen den idealen Rahmen für Mahlzeiten und Entspannung. Dieser offene Bereich bietet atemberaubende Ausblicke auf das Deck und die Lagune und ist der perfekte Ort, um sich zu treffen und die natürliche Schönheit von Bacalar zu genießen.",
    "pier": "Steg",
    "pierDescription": "Treten Sie hinaus und entdecken Sie unseren privaten Steg – Ihr Platz in erster Reihe, um die Schönheit der Lagune zu genießen. Ob beim Sonnenuntergang, beim Lesen eines Buches mit den Füßen im Wasser, beim Sonnenbaden oder bei einem erfrischenden Bad – dieser ruhige Ort lädt dazu ein, zu entschleunigen und neue Energie zu tanken. Für Abenteuerlustige stehen Kajaks und Paddleboards bereit, um die Lagune in Ihrem eigenen Rhythmus zu erkunden, nur vom Klang der Natur begleitet."
-
-}  
+},
+   "footer":{
+    "location": "Standort",
+    "contact": "Kontakt",
+    "follow": "Folge uns"
+   }
  
 }
